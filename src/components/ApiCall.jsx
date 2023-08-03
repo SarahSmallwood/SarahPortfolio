@@ -2,11 +2,13 @@ import React, { useState, useEffect } from 'react'
 
 function ApiCall() {
     const [items, setItems] = useState([])
-    const [repo, setRepo] = useState()
+    const [repo, setRepo] = useState("SarahSmallwood")
 
     useEffect(() => {
-        console.log('repo')
-    },[repo])
+        const fetchRepo = async () => {
+            const res = await fetch(`http://api.github.com/users/SarahSmallwood/repos?page=1&per_page=10&sort=updated`)
+        }
+    },[])
 
 
 
