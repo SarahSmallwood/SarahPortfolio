@@ -54,6 +54,19 @@
   align-items: center;
 
 }
+.profileText{
+  width: 50%;
+  margin-top: 60px;
+}
+.titleText{
+  color: whitesmoke;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.jobText{
+  color: whitesmoke;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
 .gallery {
   display: flex;
   justify-content: center;

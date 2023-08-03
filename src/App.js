@@ -12,6 +12,10 @@ function App() {
       <Header />
       <NavBar />
       <SubNav />
+      <div className="profileText">
+        <h1 className="titleText">Insert Name</h1>
+        <p className="jobText">Job Title goes here</p>
+      </div>
 
     <Routes>
       <Route path="/gallery" element={<Gallery/>} />
