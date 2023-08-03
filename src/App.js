@@ -4,6 +4,7 @@ import './App.css';
 import SubNav from './components/SubNav';
 import Gallery from './components/Gallery';
 import Header from './components/Header';
+import Projects from './components/Projects';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
 
     <Routes>
       <Route path="/gallery" element={<Gallery/>} />
+      <Route path="/projects" element={<Projects />} />
     </Routes> 
      
 
