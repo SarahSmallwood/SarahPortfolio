@@ -13,8 +13,8 @@ function App() {
       <NavBar />
       <SubNav />
       <div className="profileText">
-        <h1 className="titleText">Insert Name</h1>
-        <p className="jobText">Job Title goes here</p>
+        <h1 className="titleText">Sarah Smallwood</h1>
+        <p className="jobText">Software Engineer, Web Developer</p>
       </div>
 
     <Routes>

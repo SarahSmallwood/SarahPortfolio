@@ -30,7 +30,7 @@ function Gallery() {
     },
     {
       image: "https://media.discordapp.net/attachments/1135935108650635327/1135996988408737823/IMG_5295.JPG?width=1155&height=800",
-      caption: "Portugal",
+      caption: "Algarve, Portugal",
       
     },
     {
@@ -42,17 +42,22 @@ function Gallery() {
       image: "https://media.discordapp.net/attachments/1135935108650635327/1135996989671223306/IMG_9848.jpg?width=600&height=800",
       caption: "Arches National Park Utah",
     },
+    {
+      image: "https://media.discordapp.net/attachments/1135935108650635327/1136673644056150156/9A3E1575-4E3B-4252-BD85-90DBDFB1A661.jpg?width=1115&height=840",
+      caption: "Belize",
+    },
   ];
 
 return (
   <div className="gallery">
     
-      <h2 className='galleryHead'>Travel Photography Gallery</h2>
+      <h1 className='galleryHead'>Travel Photography Gallery</h1>
       
         <Carousel className="travel"
           data={data}
           thumbnails={true}
           thumbnailWidth="100px"
+          thumbnailHeight="100px"
         />
       </div>
 );
