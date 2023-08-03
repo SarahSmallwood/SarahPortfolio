@@ -28,6 +28,10 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.headerApp{
+  border: solid whitesmoke;
+  height: 70px;
+}
 
 .Navbar{
   border: solid whitesmoke;
@@ -36,7 +40,9 @@
   width: 100%;
 }
 .SubNav{
+  margin-top: 15px;
   border: solid whitesmoke;
+  background-color: whitesmoke;
   border-width: 0.3em;
   height: 70px;
   width: 100%;
@@ -48,15 +54,39 @@
   align-items: center;
 
 }
-.travel{
+.gallery {
   display: flex;
   justify-content: center;
+}
+.galleryHead {
+  color: whitesmoke;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.travel {
+  border: solid whitesmoke;
+  border-width: 0.3em;
   width: 850px;
   height: 500px;
-  
+  font-family: Georgia, 'Times New Roman', Times, serif;
   border-radius: 10px;
   text-align: center;
   max-width: 850px;
   max-height: 500px;
   margin: 30px;
+}
+.header{
+  height: 70px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.icon{
+  height: 60px;
+  width: 150px;
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  align-content: center;
+  margin-top: 40px;
+  font-weight: bolder;
 }

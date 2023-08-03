@@ -47,7 +47,7 @@ function Gallery() {
 return (
   <div className="gallery">
     
-      <h2>Travel Photography Gallery</h2>
+      <h2 className='galleryHead'>Travel Photography Gallery</h2>
       
         <Carousel className="travel"
           data={data}

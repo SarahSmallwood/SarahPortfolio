@@ -9,10 +9,10 @@ function NavBar() {
     <div className="Navbar">
         <div className="header">
           <Link to="/">
-            <div>Home</div>
+            <div className="icon">Home</div>
           </Link>
-        <Link to="/Gallery">
-            <div>Travel Gallery</div>
+        <Link to="/gallery">
+            <div className="icon">Travel Gallery</div>
         </Link>
         </div>
     </div>
