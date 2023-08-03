@@ -30,25 +30,24 @@
 }
 .headerApp{
   border: solid whitesmoke;
-  height: 70px;
+  height: 40px;
 }
 
 .Navbar{
   border: solid whitesmoke;
   border-width: 0.3em;
-  height: 90px;
+  height: 80px;
   width: 100%;
 }
 .SubNav{
-  margin-top: 15px;
   border: solid whitesmoke;
   background-color: whitesmoke;
   border-width: 0.3em;
-  height: 70px;
+  height: 60px;
   width: 100%;
 }
 .icons{
-  height: 70px;
+  height: 60px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -97,9 +96,9 @@
   height: 60px;
   width: 150px;
   color: whitesmoke;
-  font-size: 20px;
+  font-size: 22px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   align-content: center;
-  margin-top: 40px;
+  margin-top: 30px;
   font-weight: bolder;
 }
