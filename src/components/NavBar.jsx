@@ -17,6 +17,9 @@ function NavBar() {
           <Link to="/gallery">
             <div className="icon">Travel Gallery</div>
           </Link>
+          <Link to='/skills'>
+            <div className="icon">Skills</div>
+          </Link>
           
         </div>
     </div>
