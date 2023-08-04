@@ -1,12 +1,12 @@
-import React from 'react'
-import ApiCall from './ApiCall'
+import React from 'react';
+import ApiCall from './ApiCall';
 
-function Projects(props) {
+function Projects() {
     
   return (
     <div>Projects
         <p>
-            {/* url={html_url} */}
+        {/* First {res.data[0].html_url}; */}
         </p>
     </div>
   )

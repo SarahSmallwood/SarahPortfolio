@@ -1,11 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import Projects from './Projects';
-
 
 function ApiCall() {
-
-    let res;
 
     // const [user, setUser] = useState("SarahSmallwood")
     const [repo, setRepo] = useState('')
@@ -15,15 +11,15 @@ function ApiCall() {
     //     setUser(res.user);
     // }
     const getRepos = async () => {
-        res = await axios.get(`https://api.github.com/users/SarahSmallwood/repos`);
+        let res = await axios.get(`https://api.github.com/users/SarahSmallwood/repos`);
 
-        console.log(res.data[0].html_url);
+        console.log(res);
         
         
         
         // res.data.array.map(x => x.html_url);
 
-        setRepo(res.repo);
+        setRepo(res.data);
         // console.log(res.array.forEach(element => {
         //     console.log(element)
         // }))
@@ -34,25 +30,38 @@ function ApiCall() {
     // let initial = true 
 
     useEffect(() => {
-
-        // getUser();
         getRepos();
+    },[])
 
-        // if (initial){
-        //     const getUser= async () => {
-        //         let res = await axios.get(`http://api.github.com/users/${user}`);
-        //         setUser(res.user);
-        //     }
-        //     const getRepos = async () => {
-        //         let res = await axios.get(`http://api.github.com/users/${user}/repos`);
-        //         setRepo(res[0].html_url);
-        //     }
-        // }
-    })
+
     const loaded = () => {
         return (
             <div className='projects'>
-                <Projects />
+                <div className='name'>
+                {repo[9].name}
+                {repo[11].name}
+                {repo[14].name}
+                {repo[15].name}
+                {repo[16].name}
+                {repo[20].name}
+
+                </div>
+                <div className='url'>
+                {repo[9].html_url}
+                {repo[11].html_url}
+                {repo[14].html_url}
+                {repo[15].html_url}
+                {repo[16].html_url}
+                {repo[20].html_url}
+                </div>
+                <div className='img'>
+                    <img src="" about='alt' />
+                    <img src="" about='alt' />
+                    <img src="" about='alt' />
+                    <img src="" about='alt' />
+                    <img src="" about='alt' />
+                    <img src="" about='alt' />
+                </div>
             </div>
         );
     }

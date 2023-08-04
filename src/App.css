@@ -163,3 +163,12 @@
   height: 90px;
   width: 90px;
 }
+.projects{
+  border: solid fuchsia;
+}
+.name{
+  border: solid blue;
+}
+.url{
+  border: solid green;
+}
