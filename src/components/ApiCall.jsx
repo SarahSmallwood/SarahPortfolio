@@ -38,21 +38,21 @@ function ApiCall() {
         return (
             <div className='projects'>
                 <div className='name'>
-                {repo[9].name}
-                {repo[11].name}
-                {repo[14].name}
-                {repo[15].name}
-                {repo[16].name}
-                {repo[20].name}
+                <h3>{repo[9].name}</h3>
+                <h3>{repo[11].name}</h3>
+                <h3>{repo[14].name}</h3>
+                <h3>{repo[15].name}</h3>
+                <h3>{repo[16].name}</h3>
+                <h3>{repo[20].name}</h3>
 
                 </div>
                 <div className='url'>
-                {repo[9].html_url}
-                {repo[11].html_url}
-                {repo[14].html_url}
-                {repo[15].html_url}
-                {repo[16].html_url}
-                {repo[20].html_url}
+                <h3>{repo[9].html_url}</h3>
+                <h3>{repo[11].html_url}</h3>
+                <h3>{repo[14].html_url}</h3>
+                <h3>{repo[15].html_url}</h3>
+                <h3>{repo[16].html_url}</h3>
+                <h3>{repo[20].html_url}</h3>
                 </div>
                 <div className='img'>
                     <img src="" about='alt' />

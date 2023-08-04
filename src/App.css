@@ -165,10 +165,29 @@
 }
 .projects{
   border: solid fuchsia;
+  width: 100%;
+  display: flex;
+  
 }
 .name{
   border: solid blue;
+  font-size: 20px;
+  color: whitesmoke;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  columns: 1;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
 }
 .url{
   border: solid green;
+  font-size: 20px;
+  color: whitesmoke;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+}
+.img{
+  border: solid yellow;
 }
