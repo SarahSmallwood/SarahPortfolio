@@ -6,15 +6,16 @@ function Projects() {
     const [user, setUser] = useState("SarahSmallwood")
     const [repo, setRepo] = useState([])
 
-     const getUser = async () => {
-        let res = await axios.get(`http://api.github.com/users/${user}`);
+    const getUser = async () => {
+        let res = await axios.get(`http://api.github.com/users/${user}/`);
         setUser(res.user);
-        console.log("user")
-        }
+    }
     const getRepo = async () => {
-        let res = await axios.get(`http://api.github.com/users/${user}/repos`);
+        let res = await axios.get(`http://api.github.com/users/${user}/repos/`);
         setRepo(res.user.repo);
     }
+    //console.log(`${user}`);
+    
 
     let initial = true 
 
@@ -24,7 +25,7 @@ function Projects() {
         getRepo();
 
         if (initial){
-            const getuser= async () => {
+            const getUser= async () => {
                 let res = await axios.get(`http://api.github.com/users/${user}`);
                 setUser(res.user);
             }
@@ -33,7 +34,8 @@ function Projects() {
                 setRepo(res.user.repo);
             }
         }
-    })
+    });
+    
   return (
     <div>
     <h1 className='projectTitle'> Sarah's Portfolio Projects </h1>
@@ -43,7 +45,7 @@ function Projects() {
     </div> 
     
 
-  )
+  );
 }
 
 export default Projects
