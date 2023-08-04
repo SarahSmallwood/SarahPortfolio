@@ -30,13 +30,13 @@
 }
 .headerApp{
   border: solid whitesmoke;
-  height: 40px;
+  height: 50px;
 }
 
 .Navbar{
   border: solid whitesmoke;
   border-width: 0.3em;
-  height: 80px;
+  height: 90px;
   width: 100%;
 }
 .SubNav{
@@ -54,7 +54,7 @@
 
 }
 .profileText{
-  width: 50%;
+  width: 40%;
   margin-top: 60px;
 }
 .titleText{
