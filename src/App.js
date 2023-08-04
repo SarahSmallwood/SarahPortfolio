@@ -5,6 +5,7 @@ import SubNav from './components/SubNav';
 import Gallery from './components/Gallery';
 import Header from './components/Header';
 import Projects from './components/Projects';
+import Skills from './components/Skills';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
     <Routes>
       <Route path="/gallery" element={<Gallery/>} />
       <Route path="/projects" element={<Projects />} />
+      <Route path="/skills" element={<Skills />} />
     </Routes> 
      
 
