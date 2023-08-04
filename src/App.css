@@ -108,3 +108,55 @@
   font-size: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.skillTitle{
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: whitesmoke;
+}
+.skillHead{
+  border: solid black;
+  background-color: black;
+  font-size: 30px;
+  color: whitesmoke;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.logosTop{
+  display: flex;
+  justify-content: space-evenly;
+}
+.logosBottom{
+  display: flex;
+  justify-content: space-evenly;
+}
+.html{
+  height: 90px;
+  width: 90px;
+}
+.css{
+  height: 90px;
+  width: 90px;
+}
+.js{
+  height: 90px;
+  width: 90px;
+}
+.mongo{
+  height: 90px;
+  width: 90px;
+}
+.python{
+  height: 90px;
+  width: 90px;
+}
+.react{
+  height: 90px;
+  width: 90px;
+}
+.node{
+  height: 90px;
+  width: 90px;
+}
+.sql{
+  height: 90px;
+  width: 90px;
+}
