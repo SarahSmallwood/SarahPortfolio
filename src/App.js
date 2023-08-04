@@ -18,6 +18,7 @@ function App() {
         <h1 className="titleText">Sarah Smallwood</h1>
         <p className="jobText">Software Engineer, Web Developer</p>
       </div>
+    
 
     <Routes>
       <Route path="/gallery" element={<Gallery/>} />
