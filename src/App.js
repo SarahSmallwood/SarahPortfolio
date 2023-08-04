@@ -4,8 +4,10 @@ import './App.css';
 import SubNav from './components/SubNav';
 import Gallery from './components/Gallery';
 import Header from './components/Header';
-import Projects from './components/Projects';
+import ApiCall from './components/ApiCall';
+import Projects from './components/ApiCall';
 import Skills from './components/Skills';
+
 
 
 function App() {
@@ -21,6 +23,7 @@ function App() {
     
 
     <Routes>
+      <Route path="/" element={<ApiCall />} />
       <Route path="/gallery" element={<Gallery/>} />
       <Route path="/projects" element={<Projects />} />
       <Route path="/skills" element={<Skills />} />

@@ -1,51 +1,15 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import React from 'react'
+import ApiCall from './ApiCall'
 
-
-function Projects() {
-    const [user, setUser] = useState("SarahSmallwood")
-    const [repo, setRepo] = useState([])
-
-    const getUser = async () => {
-        let res = await axios.get(`http://api.github.com/users/${user}/`);
-        setUser(res.user);
-    }
-    const getRepo = async () => {
-        let res = await axios.get(`http://api.github.com/users/${user}/repos/`);
-        setRepo(res.user.repo);
-    }
-    //console.log(`${user}`);
-    
-
-    let initial = true 
-
-    useEffect(() => {
-
-        getUser();
-        getRepo();
-
-        if (initial){
-            const getUser= async () => {
-                let res = await axios.get(`http://api.github.com/users/${user}`);
-                setUser(res.user);
-            }
-            const getRepo = async () => {
-                let res = await axios.get(`http://api.github.com/users/${user}/repos`);
-                setRepo(res.user.repo);
-            }
-        }
-    });
+function Projects(props) {
     
   return (
-    <div>
-    <h1 className='projectTitle'> Sarah's Portfolio Projects </h1>
-    <div>
-        {/* {user.map.repo} */}
-    </div> 
-    </div> 
-    
-
-  );
+    <div>Projects
+        <p>
+            {/* url={html_url} */}
+        </p>
+    </div>
+  )
 }
 
 export default Projects
