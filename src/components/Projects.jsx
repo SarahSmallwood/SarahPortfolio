@@ -9,17 +9,36 @@ function Projects() {
      const getUser = async () => {
         let res = await axios.get(`http://api.github.com/users/${user}`);
         setUser(res.user);
+        console.log("user")
         }
     const getRepo = async () => {
         let res = await axios.get(`http://api.github.com/users/${user}/repos`);
         setRepo(res.user.repo);
     }
 
+    let initial = true 
+
+    useEffect(() => {
+
+        getUser();
+        getRepo();
+
+        if (initial){
+            const getuser= async () => {
+                let res = await axios.get(`http://api.github.com/users/${user}`);
+                setUser(res.user);
+            }
+            const getRepo = async () => {
+                let res = await axios.get(`http://api.github.com/users/${user}/repos`);
+                setRepo(res.user.repo);
+            }
+        }
+    })
   return (
     <div>
     <h1 className='projectTitle'> Sarah's Portfolio Projects </h1>
     <div>
-        {user.map.repo}
+        {/* {user.map.repo} */}
     </div> 
     </div> 
     
