@@ -47,12 +47,12 @@ function ApiCall() {
 
                 </div>
                 <div className='url'>
-                <h3>{repo[9].html_url}</h3>
-                <h3>{repo[11].html_url}</h3>
-                <h3>{repo[14].html_url}</h3>
-                <h3>{repo[15].html_url}</h3>
-                <h3>{repo[16].html_url}</h3>
-                <h3>{repo[20].html_url}</h3>
+                <a href={repo[9].html_url}> {repo[9].html_url} </a>
+                <a href={repo[11].html_url}> {repo[11].html_url} </a>
+                <a href={repo[14].html_url}> {repo[14].html_url} </a>
+                <a href={repo[15].html_url}> {repo[15].html_url} </a>
+                <a href={repo[16].html_url}> {repo[16].html_url} </a>
+                <a href={repo[20].html_url}> {repo[20].html_url} </a>
                 </div>
                 <div className='img'>
                     <img src="" about='alt' />

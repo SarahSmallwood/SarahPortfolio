@@ -164,29 +164,29 @@
   width: 90px;
 }
 .projects{
-  border: solid fuchsia;
+  border: solid whitesmoke;
   width: 100%;
   display: flex;
   
 }
 .name{
-  border: solid blue;
-  font-size: 20px;
+  border: solid whitesmoke;
+  font-size: 16px;
   color: whitesmoke;
   font-family: Georgia, 'Times New Roman', Times, serif;
   columns: 1;
   display: flex;
   flex-direction: column;
-  height: 400px;
+  height: 500px;
 }
 .url{
   border: solid green;
-  font-size: 20px;
+  font-size: 16px;
   color: whitesmoke;
   font-family: Georgia, 'Times New Roman', Times, serif;
   display: flex;
   flex-direction: column;
-  height: 400px;
+  height: 500px;
 }
 .img{
   border: solid yellow;
