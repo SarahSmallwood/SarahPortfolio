@@ -11,7 +11,7 @@ function NavBar() {
           <Link to="/App">
             <div className="icon">Home</div>
           </Link>
-          <Link to="/projects">
+          <Link to="/apicall">
             <div className="icon">Portfolio</div>
           </Link>
           <Link to="/gallery">

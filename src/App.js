@@ -23,9 +23,8 @@ function App() {
     
 
     <Routes>
-      <Route path="/" element={<ApiCall />} />
+      <Route path="/apicall" element={<ApiCall />} />
       <Route path="/gallery" element={<Gallery/>} />
-      <Route path="/projects" element={<Projects />} />
       <Route path="/skills" element={<Skills />} />
     </Routes> 
      
