@@ -180,19 +180,26 @@
   height: 500px;
 }
 .url{
-  border: solid green;
   font-size: 16px;
   color: whitesmoke;
   font-family: Georgia, 'Times New Roman', Times, serif;
   display: flex;
   flex-direction: column;
-  height: 500px;
 }
 .img{
   border: solid yellow;
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
 }
 .apiLink{
   color: whitesmoke;
   display: flex;
   font-size: 16px;
+}
+.trivia{
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
 }
