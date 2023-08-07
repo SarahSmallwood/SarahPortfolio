@@ -163,43 +163,24 @@
   height: 90px;
   width: 90px;
 }
-.projects{
-  border: solid whitesmoke;
-  width: 100%;
-  display: flex;
-  
-}
-.name{
-  border: solid whitesmoke;
-  font-size: 16px;
-  color: whitesmoke;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  columns: 1;
-  display: flex;
-  flex-direction: column;
-  height: 500px;
-}
+
 .url{
   font-size: 16px;
   color: whitesmoke;
   font-family: Georgia, 'Times New Roman', Times, serif;
   display: flex;
-  flex-direction: column;
-}
-.img{
-  border: solid yellow;
   height: 500px;
-  display: flex;
-  justify-content: space-evenly;
+  grid-auto-rows: auto;
 }
+
 .apiLink{
-  color: whitesmoke;
+  color: red;
   display: flex;
   font-size: 16px;
 }
 .trivia{
   height: 300px;
-  width: 300px;
+  width: 400px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }

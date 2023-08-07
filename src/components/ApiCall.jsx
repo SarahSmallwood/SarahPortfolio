@@ -36,16 +36,7 @@ function ApiCall() {
 
     const loaded = () => {
         return (
-            <div className='projects'>
-                {/* <div className='name'>
-                <h3>{repo[9].name}</h3>
-                <h3>{repo[11].name}</h3>
-                <h3>{repo[14].name}</h3>
-                <h3>{repo[15].name}</h3>
-                <h3>{repo[16].name}</h3>
-                <h3>{repo[20].name}</h3> */}
-
-                
+        
                 <div className='url'>
                     <div className='game'>
 
@@ -88,7 +79,7 @@ function ApiCall() {
                 
                 
                 </div>
-            </div>
+            
         );
     }
     const loading = () => {
