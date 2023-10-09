@@ -129,7 +129,7 @@
 }
 .logosBottom{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: rows;
 }
 .html{
   height: 90px;
@@ -165,22 +165,25 @@
 }
 
 .url{
+  height: 1000px;
+  border: solid fuchsia;
   font-size: 16px;
   color: whitesmoke;
   font-family: Georgia, 'Times New Roman', Times, serif;
   display: flex;
-  height: 500px;
-  grid-auto-rows: auto;
+  justify-content: space-around;
+  padding: 5px;
 }
 
 .apiLink{
-  color: red;
-  display: flex;
+  border: solid blue;
+  width: 33%;
+  color: black;
   font-size: 16px;
 }
 .trivia{
+  border: solid greenyellow;
   height: 300px;
-  width: 400px;
   display: flex;
   justify-content: space-evenly;
 }

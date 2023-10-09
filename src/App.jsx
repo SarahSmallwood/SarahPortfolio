@@ -2,11 +2,11 @@ import NavBar from './components/NavBar';
 import {Route, Routes} from 'react-router-dom';
 import './App.css';
 import SubNav from './components/SubNav';
-import Gallery from './components/Gallery';
+import Gallery from './modules/Gallery';
 import Header from './components/Header';
-import ApiCall from './components/ApiCall';
-import Projects from './components/ApiCall';
-import Skills from './components/Skills';
+import ApiCall from './modules/Github';
+import Projects from './modules/Github';
+import Skills from './modules/Skills';
 
 
 
