@@ -23,7 +23,6 @@ function App() {
     
 
     <Routes>
-      <Route path="/apicall" element={<ApiCall />} />
       <Route path="/gallery" element={<Gallery/>} />
       <Route path="/skills" element={<Skills />} />
     </Routes> 

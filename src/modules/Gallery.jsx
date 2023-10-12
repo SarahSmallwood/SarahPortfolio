@@ -4,54 +4,41 @@ import { Carousel } from 'react-carousel-minimal';
 function Gallery() {
   const data = [
     {
-      image: "https://cdn.discordapp.com/attachments/1135935108650635327/1135936860091326514/IMG_4360_3.JPG",
-      caption: "Spain",
+      image: "https://media.discordapp.net/attachments/1135935108650635327/1161389038486437888/Capstone_2.png?ex=65381ed4&is=6525a9d4&hm=ea67811cb147be26fdb75f6fd33998199f6ab97b3aae863bfce3f2308966fba2&=&width=1601&height=880",
+      caption: "Travel Blogging App. A full MERN Stack application with CRUD Operations",
       
     },
     {
-      image: "https://media.discordapp.net/attachments/1135935108650635327/1135936862813429883/IMG_2950.jpg?width=1067&height=800",
-      caption: "Thailand",
+      image: "https://media.discordapp.net/attachments/1135935108650635327/1137933878267494491/wholefoods.png?ex=6535d902&is=65236402&hm=4d2cfb26c0c94a4413a485c1c1228d03f71f5e14af7615117d4640ce4072565e&=&width=1628&height=880",
+      caption: "Whole Foods Market MockUP",
       
     },
     {
-      image: "https://media.discordapp.net/attachments/1135935108650635327/1135936861190234182/IMG_6776.jpg?width=545&height=800",
-      caption: "Costa Rica",
+      image: "https://media.discordapp.net/attachments/1135935108650635327/1161848974219673731/ResumeMockUp.png?ex=6539cb2d&is=6527562d&hm=5b723f4388c8784fb5b2c5e6583761dd94f60064ac36b5915dbe682fa21bb07b&=&width=1566&height=880",
+      caption: "Resume MockUP",
       
     },
     {
-      image: "https://media.discordapp.net/attachments/1135935108650635327/1135936861764862014/IMG_8670.JPG?width=556&height=800",
-      caption: "Spain",
+      image: "https://media.discordapp.net/attachments/1135935108650635327/1137933878577868871/per.png?ex=6535d902&is=65236402&hm=876df396f85e587cbc6ba18014e6d34ba760918839573f41682db7876c11f362&=&width=1634&height=880",
+      caption: "Per Scholas Website Responsive Design MockUp",
       
     },
     {
-      image: "https://media.discordapp.net/attachments/1135935108650635327/1135936860644982846/F8F553BD-AE6B-48BA-BF92-B4AF6855606A.JPG?width=1067&height=800",
-      caption: "Spain",
+      image: "https://media.discordapp.net/attachments/1135935108650635327/1137931317397430312/TriviaGame.png?ex=6535d69f&is=6523619f&hm=c3c4a9435fab5c501bea28e8fc15563d8a97dae8d00c40173f38c291df4f8326&=&width=1806&height=690",
+      caption: "World Continent Trivia Game",
       
     },
     {
-      image: "https://media.discordapp.net/attachments/1135935108650635327/1135996988408737823/IMG_5295.JPG?width=1155&height=800",
-      caption: "Algarve, Portugal",
+      image: "https://media.discordapp.net/attachments/1135935108650635327/1137933878938587147/space.png?ex=6535d902&is=65236402&hm=714430976c503e1d0cca36d8bf4496860a44101f3bb44535f2b53236bb2f3181&=&width=1806&height=761",
+      caption: "SpaceBattle Game JavaScript Basic",
       
-    },
-    {
-      image: "https://media.discordapp.net/attachments/1135935108650635327/1135996989113376788/IMG_5524.jpg?width=809&height=800",
-      caption: "Iceland",
-      
-    },
-    {
-      image: "https://media.discordapp.net/attachments/1135935108650635327/1135996989671223306/IMG_9848.jpg?width=600&height=800",
-      caption: "Arches National Park Utah",
-    },
-    {
-      image: "https://media.discordapp.net/attachments/1135935108650635327/1136673644056150156/9A3E1575-4E3B-4252-BD85-90DBDFB1A661.jpg?width=1115&height=840",
-      caption: "Belize",
-    },
+    }
   ];
 
 return (
   <div className="gallery">
     
-      <h1 className='galleryHead'>Travel Photography Gallery</h1>
+      <h1 className='galleryHead'>Software Development Portfolio</h1>
       
         <Carousel className="travel"
           data={data}

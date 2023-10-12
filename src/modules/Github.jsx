@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { Carousel } from 'react-carousel-minimal';
+
 
 function ApiCall() {
 
@@ -21,14 +21,9 @@ function ApiCall() {
         // res.data.array.map(x => x.html_url);
 
         setRepo(res.data);
-        // console.log(res.array.forEach(element => {
-        //     console.log(element)
-        // }))
+        
     }
     //console.log(`${user}`);
-    
-
-    // let initial = true 
 
     useEffect(() => {
         getRepos();

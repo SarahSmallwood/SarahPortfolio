@@ -129,7 +129,7 @@
 }
 .logosBottom{
   display: flex;
-  justify-content: rows;
+  justify-content: space-evenly;
 }
 .html{
   height: 90px;
