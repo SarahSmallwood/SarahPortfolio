@@ -13,13 +13,12 @@ import Skills from './modules/Skills';
 function App() {
   return (
     <div className="App">
-      <Header />
-      <NavBar />
-      <SubNav />
       <div className="profileText">
         <h1 className="titleText">Sarah Smallwood</h1>
         <p className="jobText">Software Engineer, Web Developer</p>
       </div>
+      <NavBar />
+      <SubNav />
     
 
     <Routes>

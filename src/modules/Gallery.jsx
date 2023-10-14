@@ -1,5 +1,6 @@
 import React from 'react';
 import { Carousel } from 'react-carousel-minimal';
+import GithubButton from '../components/GithubButton';
 
 function Gallery() {
   const data = [
@@ -43,9 +44,13 @@ return (
         <Carousel className="travel"
           data={data}
           thumbnails={true}
-          thumbnailWidth="100px"
-          thumbnailHeight="100px"
+          thumbnailWidth="120px"
+          thumbnailHeight="130px"
+          border= "solid-blue"
+          font-family= "Georgia, 'Times New Roman', Times, serif"
         />
+        <GithubButton/>
+
       </div>
 );
 }

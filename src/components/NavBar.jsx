@@ -9,11 +9,11 @@ function NavBar() {
           <Link to="/App">
             <div className="icon">Home</div>
           </Link>
-          <Link to="/apicall">
+          <Link to="/gallery">
             <div className="icon">Portfolio</div>
           </Link>
-          <Link to="/gallery">
-            <div className="icon">Travel Gallery</div>
+          <Link to="/apicall">
+            <div className="icon">Photo Gallery</div>
           </Link>
           <Link to='/skills'>
             <div className="icon">Skills</div>

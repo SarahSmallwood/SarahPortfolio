@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1135936946225557624/7C07E77B-A612-4BDB-A2A0-0CB41D655CD9.JPG?width=1526&height=1018");
+  background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1162558903813419058/DSC01341.jpg?ex=653c6059&is=6529eb59&hm=252b84668e62042c412e09b6e579e5d9039a04cc61a913131ea268a09c231682&=&width=1320&height=880");
   border: solid whitesmoke;
   border-width: 0.3em;
   height: 850px;
@@ -67,16 +67,18 @@
   font-size: 20px;
 }
 .gallery {
+  border: solid fuchsia;
   display: flex;
   justify-content: space-around;
 }
 .galleryHead {
+  border: solid green;
   color: whitesmoke;
   font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 .travel {
-  border: solid whitesmoke;
+  border: solid blue;
   border-width: 0.3em;
   width: 850px;
   height: 500px;
@@ -186,4 +188,58 @@
   height: 300px;
   display: flex;
   justify-content: space-evenly;
+}
+.buttonOne{
+  border: solid black;
+  height: 50px;
+  width: 250px;
+  border-radius: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+.buttonTwo{
+  border: solid black;
+  height: 50px;
+  width: 250px;
+  border-radius: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+.buttonThree{
+  border: solid black;
+  height: 50px;
+  width: 250px;
+  border-radius: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+.buttonFour{
+  border: solid black;
+  height: 50px;
+  width: 250px;
+  border-radius: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+.buttonFive{
+  border: solid black;
+  height: 50px;
+  width: 250px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.buttonSix{
+  border: solid black;
+  height: 50px;
+  width: 250px;
+  border-radius: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+.gitHub{
+  display: inline-flex;
+  height: 40px;
+  width: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }

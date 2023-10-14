@@ -1,20 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import { IKImage, IKContext, IKUpload } from 'imagekitio-react';
 
 function PhotoGallery() {
-    const [gallery, setGallery] = useState('')
+    // required parameter to fetch images
+const urlEndpoint = '<YOUR_IMAGEKIT_URL_ENDPOINT>';
 
-    const getRepos = async () => {
-        let res = await axios.get(`https://api.github.com/users/SarahSmallwood/repos`);
-
-        console.log(res);
-
-        setRepo(res.data);
-
-
+// optional parameters (needed for client-side upload)
+const publicKey = '<YOUR_IMAGEKIT_PUBLIC_KEY>'; 
+const authenticationEndpoint = 'https://www.your-server.com/auth';
 }
-useEffect(() => {
-    getRepos();
-},[])
-}
-
+    
