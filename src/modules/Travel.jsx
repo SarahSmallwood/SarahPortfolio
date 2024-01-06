@@ -1,13 +1,17 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-import { IKImage, IKContext, IKUpload } from 'imagekitio-react';
+// src/components/Layout.js
+import React from 'react';
+import TravelGallery from '../components/TravelGallery';
 
-function PhotoGallery() {
-    // required parameter to fetch images
-const urlEndpoint = '<YOUR_IMAGEKIT_URL_ENDPOINT>';
+const Travel = () => {
+  return (
+    <div className="layout">
+      <h1>Image Gallery</h1>
+      <div className="grid-container">
+        <TravelGallery />
+      </div>
+    </div>
+  );
+};
 
-// optional parameters (needed for client-side upload)
-const publicKey = '<YOUR_IMAGEKIT_PUBLIC_KEY>'; 
-const authenticationEndpoint = 'https://www.your-server.com/auth';
-}
-    
+export default Travel;
+ 

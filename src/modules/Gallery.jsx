@@ -1,6 +1,6 @@
 import React from 'react';
 import { Carousel } from 'react-carousel-minimal';
-import GithubButton from '../components/GithubButton';
+//import GithubButton from '../components/GithubButton';
 
 function Gallery() {
   const data = [
@@ -49,7 +49,7 @@ return (
           border= "solid-blue"
           font-family= "Georgia, 'Times New Roman', Times, serif"
         />
-        <GithubButton/>
+        {/* <GithubButton/> */}
 
       </div>
 );

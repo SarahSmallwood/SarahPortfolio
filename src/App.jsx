@@ -4,7 +4,7 @@ import './App.css';
 import SubNav from './components/SubNav';
 import Gallery from './modules/Gallery';
 import Header from './components/Header';
-import ApiCall from './modules/Github';
+import Travel from './modules/Travel';
 import Projects from './modules/Github';
 import Skills from './modules/Skills';
 
@@ -24,6 +24,7 @@ function App() {
     <Routes>
       <Route path="/gallery" element={<Gallery/>} />
       <Route path="/skills" element={<Skills />} />
+      <Route path="/travel" element={<Travel />} />
     </Routes> 
      
 

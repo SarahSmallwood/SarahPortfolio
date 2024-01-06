@@ -12,7 +12,7 @@ function NavBar() {
           <Link to="/gallery">
             <div className="icon">Portfolio</div>
           </Link>
-          <Link to="/apicall">
+          <Link to="/travel">
             <div className="icon">Photo Gallery</div>
           </Link>
           <Link to='/skills'>
