@@ -1,7 +1,7 @@
 // src/components/ImageGallery.js
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { IKImage } from 'react-imagekit';
+import { IKImage, IKContext } from 'imagekitio-react';
 
 const TravelGallery = () => {
   const [images, setImages] = useState([]);
@@ -10,7 +10,7 @@ const TravelGallery = () => {
     const fetchImages = async () => {
       try {
         const response = await axios.get(
-          'https://api.imagekit.io/v1/images',
+          'https://ik.imagekit.io/v64tipjbn/SarahPortfolio',
           {
             headers: {
               Authorization: 'public_1q+LBemKf5kjuf0fX4lrhrKqxEE=',
@@ -29,11 +29,16 @@ const TravelGallery = () => {
   return (
     <div className="image-gallery">
       {images.map((image) => (
-        <IKImage
-          key={image._id}
-          path={image.path}
-          transformation={[{ height: 200, width: 200 }]}
-        />
+        <IKContext 
+        publicKey="public_1q+LBemKf5kjuf0fX4lrhrKqxEE="
+        privateKey="private_mAxOPs37DJOZbt1tH4pncHvBVJw="
+        urlEndpoint="https://ik.imagekit.io/v64tipjbn"
+        transformationPosition="path"
+        authenticationEndpoint="http://localhost:3000/travel">
+        <IKImage path="/https://ik.imagekit.io/v64tipjbn/SarahPortfolio/Portugal/IMG_5298.JPG" />
+        
+
+        </IKContext>
       ))}
     </div>
   );
