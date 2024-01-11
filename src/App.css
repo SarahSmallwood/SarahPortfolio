@@ -1,3 +1,5 @@
+@media (max-width: 1280px) {
+
 .App {
   text-align: center;
   background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1194844499847950427/IMG_8238.jpg?ex=65b1d4a7&is=659f5fa7&hm=bde34644ca21ca330ae56ba2cc496cb0416ce8fb74b6136c9a67340f1ca37d5c&=&format=webp&width=1309&height=466");
@@ -266,4 +268,546 @@
     1px 1px 2px white,
     0 0 1em black,
     0 0 0.2em black;
+}
+}
+@media (max-width: 980px) {.App {
+  text-align: center;
+  background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1194844499847950427/IMG_8238.jpg?ex=65b1d4a7&is=659f5fa7&hm=bde34644ca21ca330ae56ba2cc496cb0416ce8fb74b6136c9a67340f1ca37d5c&=&format=webp&width=1309&height=466");
+  border: solid whitesmoke;
+  background-color: whitesmoke;
+  border-width: 0.9em;
+  width: 100%;
+}
+.Navbar{
+  color: whitesmoke;
+  border-width: 0.3em;
+  height: 90px;
+  width: 100%;
+  text-shadow:
+    1px 1px 2px white,
+    0 0 1em black,
+    0 0 0.2em black;
+}
+.SubNav{
+  border: solid whitesmoke;
+  background-color: whitesmoke;
+  border-width: 0.3em;
+  height: 60px;
+  width: 100%;
+  margin-top: 150px;
+}
+.icons{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: whitesmoke;
+}
+.gallery {
+  border: solid fuchsia;
+  display: flex;
+  justify-content: space-around;
+}
+.galleryHead {
+  border: solid green;
+  color: whitesmoke;
+  font-family: BodoniMT;
+  height: 120px;
+  width: 450px;
+}
+.travel {
+  border: solid blue;
+  border-width: 0.3em;
+  width: 850px;
+  height: 500px;
+  font-family: BodoniMT;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 850px;
+  max-height: 500px;
+  margin: 30px;
+}
+.header{
+  height: 70px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.icon{
+  height: 60px;
+  width: 150px;
+  color: whitesmoke;
+  font-size: 22px;
+  font-family: BodoniMT;
+  align-content: center;
+  margin-top: 30px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.carousel-caption-bottom{
+  font-family: BodoniMT;
+  background-color: burlywood;
+}
+.carousel-image{
+  border: solid orange;
+  display: flex;
+}
+.carousel-container{
+  border: solid yellow;
+  display: flex;
+  justify-content: center;
+  margin-left: 550px;
+}
+.projectTitle{
+  border: solid whitesmoke;
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: BodoniMT;
+}
+.skills{
+  background-color: whitesmoke;
+}
+.skillTitle{
+  font-size: 40px;
+  font-family: BodoniMT;
+  color: whitesmoke;
+}
+.skillHead{
+  border: solid black;
+  background-color: black;
+  font-size: 20px;
+  color: whitesmoke;
+  font-family: BodoniMT;
+}
+.logosTop{
+  display: flex;
+  justify-content: space-evenly;
+}
+.logosBottom{
+  display: flex;
+  justify-content: space-evenly;
+}
+.html{
+  height: 90px;
+  width: 90px;
+}
+.css{
+  height: 90px;
+  width: 90px;
+}
+.js{
+  height: 90px;
+  width: 90px;
+}
+.mongo{
+  height: 90px;
+  width: 90px;
+}
+.python{
+  height: 90px;
+  width: 90px;
+}
+.react{
+  height: 90px;
+  width: 90px;
+}
+.node{
+  height: 90px;
+  width: 90px;
+}
+.sql{
+  height: 90px;
+  width: 90px;
+}
+
+.url{
+  height: 1000px;
+  border: solid fuchsia;
+  font-size: 16px;
+  color: whitesmoke;
+  font-family: BodoniMT;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.apiLink{
+  border: solid blue;
+  width: 33%;
+  color: black;
+  font-size: 16px;
+}
+.trivia{
+  border: solid greenyellow;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.buttonOne{
+  border: solid black;
+  height: 50px;
+  width: 250px;
+  border-radius: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+.buttonTwo{
+  border: solid black;
+  height: 50px;
+  width: 250px;
+  border-radius: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+.buttonThree{
+  border: solid black;
+  height: 50px;
+  width: 250px;
+  border-radius: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+.buttonFour{
+  border: solid black;
+  height: 50px;
+  width: 250px;
+  border-radius: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+.buttonFive{
+  border: solid black;
+  height: 50px;
+  width: 250px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.buttonSix{
+  border: solid black;
+  height: 50px;
+  width: 250px;
+  border-radius: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+.gitHub{
+  display: inline-flex;
+  height: 40px;
+  width: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.layout{
+  text-align: center;
+  margin: 20px;
+}
+.photoHead{
+  font-family: BodoniMT;
+  font-size: 25px;
+}
+.photoCard{
+  height: 200px;
+  width: 200px;
+}
+.profileText{
+  width: 40%;
+  margin-top: 60px;
+  text-shadow:
+    1px 1px 2px black,
+    0 0 1em black,
+    0 0 0.2em black;
+    font-family: Allura;
+}
+.titleText{
+  color: whitesmoke;
+  font-family: Tomatoes;
+  text-shadow:
+    1px 1px 2px white,
+    0 0 1em black,
+    0 0 0.2em white;
+}
+.jobText{
+  color: whitesmoke;
+  margin-left: 20px;
+  font-family: BodoniMT;
+  font-size: 25px;
+  text-shadow:
+    1px 1px 2px white,
+    0 0 1em black,
+    0 0 0.2em black;
+}
+}
+@media (max-width: 480px) {
+  .App {
+  text-align: center;
+  background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1194815865477156965/IMG_7451.jpg?ex=65b1b9fc&is=659f44fc&hm=2628436036df4fcb5eb39e5dc58ddd6e5bec2efe2ab58432f85d518a4ae646b0&=&format=webp&width=480&height=625");
+  border: solid whitesmoke;
+  background-color: whitesmoke;
+  border-width: 0.9em;
+  width: 480px;
+}
+.Navbar{
+  color: whitesmoke;
+  border-width: 0.3em;
+  height: 90px;
+  width: 100%;
+  text-shadow:
+    1px 1px 2px white,
+    0 0 1em black,
+    0 0 0.2em black;
+}
+.SubNav{
+  border: solid whitesmoke;
+  background-color: whitesmoke;
+  border-width: 0.3em;
+  height: 60px;
+  width: 100%;
+  margin-top: 150px;
+}
+.icons{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: whitesmoke;
+}
+.gallery {
+  border: solid fuchsia;
+  display: flex;
+  justify-content: space-around;
+}
+.galleryHead {
+  border: solid green;
+  color: whitesmoke;
+  font-family: BodoniMT;
+  height: 120px;
+  width: 450px;
+}
+.travel {
+  border: solid blue;
+  border-width: 0.3em;
+  width: 850px;
+  height: 500px;
+  font-family: BodoniMT;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 850px;
+  max-height: 500px;
+  margin: 30px;
+}
+.header{
+  height: 70px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.icon{
+  height: 60px;
+  width: 150px;
+  color: whitesmoke;
+  font-size: 22px;
+  font-family: BodoniMT;
+  align-content: center;
+  margin-top: 30px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.carousel-caption-bottom{
+  font-family: BodoniMT;
+  background-color: burlywood;
+}
+.carousel-image{
+  border: solid orange;
+  display: flex;
+}
+.carousel-container{
+  border: solid yellow;
+  display: flex;
+  justify-content: center;
+  margin-left: 550px;
+}
+.projectTitle{
+  border: solid whitesmoke;
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: BodoniMT;
+}
+.skills{
+  background-color: whitesmoke;
+}
+.skillTitle{
+  font-size: 40px;
+  font-family: BodoniMT;
+  color: whitesmoke;
+}
+.skillHead{
+  border: solid black;
+  background-color: black;
+  font-size: 20px;
+  color: whitesmoke;
+  font-family: BodoniMT;
+}
+.logosTop{
+  display: flex;
+  justify-content: space-evenly;
+}
+.logosBottom{
+  display: flex;
+  justify-content: space-evenly;
+}
+.html{
+  height: 90px;
+  width: 90px;
+}
+.css{
+  height: 90px;
+  width: 90px;
+}
+.js{
+  height: 90px;
+  width: 90px;
+}
+.mongo{
+  height: 90px;
+  width: 90px;
+}
+.python{
+  height: 90px;
+  width: 90px;
+}
+.react{
+  height: 90px;
+  width: 90px;
+}
+.node{
+  height: 90px;
+  width: 90px;
+}
+.sql{
+  height: 90px;
+  width: 90px;
+}
+
+.url{
+  height: 1000px;
+  border: solid fuchsia;
+  font-size: 16px;
+  color: whitesmoke;
+  font-family: BodoniMT;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.apiLink{
+  border: solid blue;
+  width: 33%;
+  color: black;
+  font-size: 16px;
+}
+.trivia{
+  border: solid greenyellow;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.buttonOne{
+  border: solid black;
+  height: 50px;
+  width: 250px;
+  border-radius: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+.buttonTwo{
+  border: solid black;
+  height: 50px;
+  width: 250px;
+  border-radius: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+.buttonThree{
+  border: solid black;
+  height: 50px;
+  width: 250px;
+  border-radius: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+.buttonFour{
+  border: solid black;
+  height: 50px;
+  width: 250px;
+  border-radius: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+.buttonFive{
+  border: solid black;
+  height: 50px;
+  width: 250px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.buttonSix{
+  border: solid black;
+  height: 50px;
+  width: 250px;
+  border-radius: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+.gitHub{
+  display: inline-flex;
+  height: 40px;
+  width: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.layout{
+  text-align: center;
+  margin: 20px;
+}
+.photoHead{
+  font-family: BodoniMT;
+  font-size: 25px;
+}
+.photoCard{
+  height: 200px;
+  width: 200px;
+}
+.profileText{
+  width: 40%;
+  margin-top: 60px;
+  text-shadow:
+    1px 1px 2px black,
+    0 0 1em black,
+    0 0 0.2em black;
+    font-family: Allura;
+}
+.titleText{
+  color: whitesmoke;
+  font-family: Tomatoes;
+  text-shadow:
+    1px 1px 2px white,
+    0 0 1em black,
+    0 0 0.2em white;
+}
+.jobText{
+  color: whitesmoke;
+  margin-left: 20px;
+  font-family: BodoniMT;
+  font-size: 25px;
+  text-shadow:
+    1px 1px 2px white,
+    0 0 1em black,
+    0 0 0.2em black;
+}
 }
