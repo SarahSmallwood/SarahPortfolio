@@ -172,60 +172,6 @@
   display: flex;
   justify-content: space-evenly;
 }
-.buttonOne{
-  border: solid black;
-  height: 50px;
-  width: 250px;
-  border-radius: 10px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 25px;
-}
-.buttonTwo{
-  border: solid black;
-  height: 50px;
-  width: 250px;
-  border-radius: 10px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 25px;
-}
-.buttonThree{
-  border: solid black;
-  height: 50px;
-  width: 250px;
-  border-radius: 10px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 25px;
-}
-.buttonFour{
-  border: solid black;
-  height: 50px;
-  width: 250px;
-  border-radius: 10px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 25px;
-}
-.buttonFive{
-  border: solid black;
-  height: 50px;
-  width: 250px;
-  border-radius: 10px;
-  font-size: 25px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.buttonSix{
-  border: solid black;
-  height: 50px;
-  width: 250px;
-  border-radius: 10px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 25px;
-}
-.gitHub{
-  display: inline-flex;
-  height: 40px;
-  width: 40px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
 .grid-container{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -331,18 +277,17 @@
   margin: 30px;
 }
 .header{
-  height: 70px;
-  display: flex;
-  justify-content: space-evenly;
+  height: 570px;
+  display: inline;
+  flex-direction: column;
+  justify-content: right;
 }
 .icon{
-  height: 60px;
   width: 150px;
   color: whitesmoke;
   font-size: 22px;
   font-family: BodoniMT;
   align-content: center;
-  margin-top: 30px;
   font-weight: bolder;
   text-decoration: none;
 }
@@ -445,60 +390,6 @@
   display: flex;
   justify-content: space-evenly;
 }
-.buttonOne{
-  border: solid black;
-  height: 50px;
-  width: 250px;
-  border-radius: 10px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 25px;
-}
-.buttonTwo{
-  border: solid black;
-  height: 50px;
-  width: 250px;
-  border-radius: 10px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 25px;
-}
-.buttonThree{
-  border: solid black;
-  height: 50px;
-  width: 250px;
-  border-radius: 10px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 25px;
-}
-.buttonFour{
-  border: solid black;
-  height: 50px;
-  width: 250px;
-  border-radius: 10px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 25px;
-}
-.buttonFive{
-  border: solid black;
-  height: 50px;
-  width: 250px;
-  border-radius: 10px;
-  font-size: 25px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.buttonSix{
-  border: solid black;
-  height: 50px;
-  width: 250px;
-  border-radius: 10px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 25px;
-}
-.gitHub{
-  display: inline-flex;
-  height: 40px;
-  width: 40px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
 .grid-container{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -541,19 +432,22 @@
     5 5 0.7em white;
 }
 }
-@media (max-width: 360px) {
+@media (max-width: 460px) {
   .App {
   text-align: center;
-  background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1194815865477156965/IMG_7451.jpg?ex=65b1b9fc&is=659f44fc&hm=2628436036df4fcb5eb39e5dc58ddd6e5bec2efe2ab58432f85d518a4ae646b0&=&format=webp&width=480&height=325");
+  background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1194815865477156965/IMG_7451.jpg?ex=65b1b9fc&is=659f44fc&hm=2628436036df4fcb5eb39e5dc58ddd6e5bec2efe2ab58432f85d518a4ae646b0&=&format=webp&width=480&height=625");
   border: solid whitesmoke;
   background-color: whitesmoke;
   border-width: 0.9em;
-  width: 360px;
+  width: 460px;
 }
 .Navbar{
+  border: solid pink;
+  display: inline;
+  flex-direction: column;
   color: whitesmoke;
   border-width: 0.3em;
-  height: 90px;
+  height: 60px;
   width: 100%;
   text-shadow:
     1px 1px 2px white,
@@ -566,11 +460,9 @@
   border-width: 0.3em;
   height: 60px;
   width: 100%;
-  margin-top: 150px;
+  margin-top: 250px;
 }
 .icons{
-  display: flex;
-  justify-content: space-evenly;
   align-items: center;
   color: whitesmoke;
 }
@@ -733,14 +625,14 @@
   width: 200px;
 }
 .profileText{
-  width: 40%;
+  width: 300px;
   margin-top: 30px;
   backdrop-filter: blur(3px);
 }
 .titleText{
   color: whitesmoke;
   font-family: Tomatoes;
-  height: 10px;
+  font-size: 30px;
   text-shadow:
     1px 1px 2px white,
     0 0 1em black,
@@ -750,7 +642,8 @@
   color: whitesmoke;
   margin-left: 5px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 5px;
+  font-size: 15px;
+  width: 300px;
   text-shadow:
     1px 1px 2px black,
     0 0 1em black,
@@ -759,4 +652,6 @@
 }
 .sarahPic{
   height: 340px;
+  display: flex;
+  object-fit: cover;
 }
