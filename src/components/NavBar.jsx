@@ -13,10 +13,13 @@ function NavBar() {
             <div className="icon">Portfolio</div>
           </Link>
           <Link to="/travel">
-            <div className="icon">Photo Gallery</div>
+            <div className="icon">Travel Photography</div>
           </Link>
-          <Link to='/skills'>
+          <Link to="/skills">
             <div className="icon">Skills</div>
+          </Link>
+          <Link to="/aboutme">
+            <div className="icon">About Me</div>
           </Link>
           
         </div>

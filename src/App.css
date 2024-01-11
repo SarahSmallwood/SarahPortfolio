@@ -1,43 +1,20 @@
 .App {
   text-align: center;
-  background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1162558903813419058/DSC01341.jpg?ex=653c6059&is=6529eb59&hm=252b84668e62042c412e09b6e579e5d9039a04cc61a913131ea268a09c231682&=&width=1320&height=880");
+  background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1194844499847950427/IMG_8238.jpg?ex=65b1d4a7&is=659f5fa7&hm=bde34644ca21ca330ae56ba2cc496cb0416ce8fb74b6136c9a67340f1ca37d5c&=&format=webp&width=1309&height=466");
   border: solid whitesmoke;
-  border-width: 0.3em;
-  height: 850px;
+  background-color: whitesmoke;
+  border-width: 0.9em;
   width: 100%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-.headerApp{
-  border: solid whitesmoke;
-  height: 50px;
-}
-
 .Navbar{
-  border: solid whitesmoke;
+  color: whitesmoke;
   border-width: 0.3em;
   height: 90px;
   width: 100%;
+  text-shadow:
+    1px 1px 2px white,
+    0 0 1em black,
+    0 0 0.2em black;
 }
 .SubNav{
   border: solid whitesmoke;
@@ -45,26 +22,13 @@
   border-width: 0.3em;
   height: 60px;
   width: 100%;
+  margin-top: 150px;
 }
 .icons{
-  height: 60px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-
-}
-.profileText{
-  width: 40%;
-  margin-top: 60px;
-}
-.titleText{
   color: whitesmoke;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.jobText{
-  color: whitesmoke;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 20px;
 }
 .gallery {
   border: solid fuchsia;
@@ -74,15 +38,16 @@
 .galleryHead {
   border: solid green;
   color: whitesmoke;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-
+  font-family: BodoniMT;
+  height: 120px;
+  width: 450px;
 }
 .travel {
   border: solid blue;
   border-width: 0.3em;
   width: 850px;
   height: 500px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: BodoniMT;
   border-radius: 10px;
   text-align: center;
   max-width: 850px;
@@ -99,23 +64,38 @@
   width: 150px;
   color: whitesmoke;
   font-size: 22px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: BodoniMT;
   align-content: center;
   margin-top: 30px;
   font-weight: bolder;
+  text-decoration: none;
+}
+.carousel-caption-bottom{
+  font-family: BodoniMT;
+  background-color: burlywood;
+}
+.carousel-image{
+  border: solid orange;
+  display: flex;
+}
+.carousel-container{
+  border: solid yellow;
+  display: flex;
+  justify-content: center;
+  margin-left: 550px;
 }
 .projectTitle{
   border: solid whitesmoke;
   color: whitesmoke;
   font-size: 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: BodoniMT;
 }
 .skills{
   background-color: whitesmoke;
 }
 .skillTitle{
   font-size: 40px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: BodoniMT;
   color: whitesmoke;
 }
 .skillHead{
@@ -123,7 +103,7 @@
   background-color: black;
   font-size: 20px;
   color: whitesmoke;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: BodoniMT;
 }
 .logosTop{
   display: flex;
@@ -171,10 +151,10 @@
   border: solid fuchsia;
   font-size: 16px;
   color: whitesmoke;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: BodoniMT;
   display: flex;
   justify-content: space-around;
-  padding: 5px;
+  padding: 15px;
 }
 
 .apiLink{
@@ -242,4 +222,48 @@
   height: 40px;
   width: 40px;
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.layout{
+  text-align: center;
+  margin: 20px;
+}
+.photoHead{
+  font-family: BodoniMT;
+  font-size: 25px;
+}
+.photoCard{
+  height: 200px;
+  width: 200px;
+}
+.profileText{
+  width: 40%;
+  margin-top: 60px;
+  text-shadow:
+    1px 1px 2px black,
+    0 0 1em black,
+    0 0 0.2em black;
+    font-family: Allura;
+}
+.titleText{
+  color: whitesmoke;
+  font-family: Tomatoes;
+  text-shadow:
+    1px 1px 2px white,
+    0 0 1em black,
+    0 0 0.2em white;
+}
+.jobText{
+  color: whitesmoke;
+  margin-left: 20px;
+  font-family: BodoniMT;
+  font-size: 25px;
+  text-shadow:
+    1px 1px 2px white,
+    0 0 1em black,
+    0 0 0.2em black;
 }

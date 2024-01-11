@@ -10,7 +10,7 @@ const TravelGallery = () => {
     const fetchImages = async () => {
       try {
         const response = await axios.get(
-          'https://ik.imagekit.io/v64tipjbn/SarahPortfolio',
+          'https://ik.imagekit.io/v64tipjbn',
           {
             headers: {
               Authorization: 'public_1q+LBemKf5kjuf0fX4lrhrKqxEE=',
@@ -34,7 +34,7 @@ const TravelGallery = () => {
         privateKey="private_mAxOPs37DJOZbt1tH4pncHvBVJw="
         urlEndpoint="https://ik.imagekit.io/v64tipjbn"
         transformationPosition="path"
-        authenticationEndpoint="http://localhost:3000/travel">
+        authenticationEndpoint="http://localhost:3000/TravelGallery">
         <IKImage path="/https://ik.imagekit.io/v64tipjbn/SarahPortfolio/Portugal/IMG_5298.JPG" />
         
 
