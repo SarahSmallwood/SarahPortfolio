@@ -6,7 +6,7 @@ import Header from './components/Header';
 import Travel from './modules/Travel';
 import Skills from './modules/Skills';
 import NavBar from './components/NavBar';
-
+import AboutMe from './modules/AboutMe';
 
 
 function App() {
@@ -22,6 +22,7 @@ function App() {
       <Route path="/gallery" element={<Gallery/>} />
       <Route path="/skills" element={<Skills />} />
       <Route path="/travel" element={<Travel />} />
+      <Route path="/aboutme" element={<AboutMe/>} />
     </Routes> 
     <Footer />
      
