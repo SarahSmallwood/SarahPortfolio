@@ -46,7 +46,7 @@ return (
           thumbnails={true}
           thumbnailWidth="120px"
           thumbnailHeight="130px"
-          border= "solid-blue"
+          border= "white"
           font-family= "Georgia, 'Times New Roman', Times, serif"
         />
         {/* <GithubButton/> */}

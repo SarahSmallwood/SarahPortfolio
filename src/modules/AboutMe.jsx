@@ -3,8 +3,8 @@ import SarahAbout from '../components/SarahAbout';
 
 function AboutMe() {
   return (
-    <div>
-        <SarahAbout />
+    <div className='AboutMe'>
+        
     </div>
   )
 }

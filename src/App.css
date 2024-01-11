@@ -9,16 +9,6 @@
   width: 100%;
   height: 460px;
 }
-.Navbar{
-  color: whitesmoke;
-  border-width: 0.3em;
-  height: 90px;
-  width: 100%;
-  text-shadow:
-    1px 1px 2px white,
-    0 0 1em black,
-    0 0 0.2em black;
-}
 .SubNav{
   border: solid whitesmoke;
   background-color: whitesmoke;
@@ -58,20 +48,32 @@
   margin: 30px;
 }
 .header{
-  height: 70px;
+  color: whitesmoke;
+  border-width: 0.3em;
+  font-family: Bodoni Moda;
+  height: 90px;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
+  text-shadow:
+    1px 1px 2px white,
+    0 0 1em black,
+    0 0 0.2em black;
 }
-.icon{
+#icon{
+  border: solid fuchsia;
+  color: black;
   height: 60px;
   width: 150px;
-  color: whitesmoke;
-  font-size: 22px;
-  font-family: BodoniMT;
+  font-size: 30px;
+  font-family: Bodoni Moda;
   align-content: center;
   margin-top: 30px;
   font-weight: bolder;
-  text-decoration: none;
+  text-shadow:
+    1px 1px 2px white,
+    0 0 1em black,
+    0 0 0.2em white;
 }
 .carousel-caption-bottom{
   font-family: BodoniMT;
@@ -191,7 +193,7 @@
 }
 .profileText{
   width: 40%;
-  backdrop-filter: blur(6px);
+  backdrop-filter: blur(3px);
   margin-top: 50px;
   text-shadow:
     1px 1px 2px black,
@@ -202,6 +204,7 @@
 .titleText{
   color: whitesmoke;
   font-family: Tomatoes;
+  font-size: 40px;
   text-shadow:
     1px 1px 2px white,
     0 0 1em black,
@@ -217,26 +220,25 @@
     0 0 1em black,
     0 0 0.2em black;
 }
+
+.AboutMe{
+  background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1195078014199922758/IMG_4646.jpg?ex=65b2ae22&is=65a03922&hm=6c77c2a9e710fab1af77241ce2b78350b77ef1e3771399d2914a25c4a83172b2&=&format=webp&width=1119&height=840");
+}
+.sarahPic{
+  height: 300px;
+  border: solid yellow;
+  width: 1000px;
+  display: cover;
+}
 }
 @media (max-width: 980px) {
   .App {
-  text-align: center;
   background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1194844499847950427/IMG_8238.jpg?ex=65b1d4a7&is=659f5fa7&hm=bde34644ca21ca330ae56ba2cc496cb0416ce8fb74b6136c9a67340f1ca37d5c&=&format=webp&width=1309&height=466");
   border: solid whitesmoke;
   background-color: whitesmoke;
   border-width: 0.9em;
-  width: 100%;
+  width: 980px;
   height: 450px;
-}
-.Navbar{
-  color: whitesmoke;
-  border-width: 0.3em;
-  height: 90px;
-  width: 100%;
-  text-shadow:
-    1px 1px 2px white,
-    0 0 1em black,
-    0 0 0.2em black;
 }
 .SubNav{
   border: solid whitesmoke;
@@ -277,10 +279,16 @@
   margin: 30px;
 }
 .header{
-  height: 570px;
-  display: inline;
-  flex-direction: column;
-  justify-content: right;
+  color: whitesmoke;
+  border-width: 0.3em;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  text-shadow:
+    1px 1px 2px white,
+    0 0 1em black,
+    0 0 0.2em black;
 }
 .icon{
   width: 150px;
@@ -441,19 +449,6 @@
   border-width: 0.9em;
   width: 460px;
 }
-.Navbar{
-  border: solid pink;
-  display: inline;
-  flex-direction: column;
-  color: whitesmoke;
-  border-width: 0.3em;
-  height: 60px;
-  width: 100%;
-  text-shadow:
-    1px 1px 2px white,
-    0 0 1em black,
-    0 0 0.2em black;
-}
 .SubNav{
   border: solid whitesmoke;
   background-color: whitesmoke;
@@ -491,20 +486,22 @@
   margin: 30px;
 }
 .header{
-  height: 70px;
-  display: flex;
-  justify-content: space-evenly;
+  border: solid purple;
+  height: 300px;
+  flex-direction: column;
+  justify-content: right;
+  margin-left: 350px;
+  text-shadow:
+    1px 1px 2px white,
+    0 0 1em black,
+    0 0 0.2em black;
 }
 .icon{
-  height: 60px;
-  width: 150px;
+  display: flex;
+  flex-direction: column;
+  width: 70px;
   color: whitesmoke;
-  font-size: 22px;
-  font-family: BodoniMT;
-  align-content: center;
-  margin-top: 30px;
-  font-weight: bolder;
-  text-decoration: none;
+  font-size: 10px;
 }
 .carousel-caption-bottom{
   font-family: BodoniMT;

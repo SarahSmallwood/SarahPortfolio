@@ -7,16 +7,14 @@ import Travel from './modules/Travel';
 import Skills from './modules/Skills';
 import NavBar from './components/NavBar';
 import AboutMe from './modules/AboutMe';
+import Home from './modules/Home';
 
 
 function App() {
   return (
     <div className="App">
     <NavBar />
-    <div className="profileText">
-        <h1 className="titleText">Sarah Elizabeth</h1>
-        <p className="jobText">Software Engineer, Web Developer, Travel Photographer</p>
-      </div>
+    <Home />
   
     <Routes>
       <Route path="/gallery" element={<Gallery/>} />
