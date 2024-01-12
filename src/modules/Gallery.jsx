@@ -41,11 +41,11 @@ return (
     
       <h1 className='galleryHead'>Software Development Portfolio</h1>
       
-        <Carousel className="travel"
+        <Carousel
           data={data}
           thumbnails={true}
           thumbnailWidth="120px"
-          thumbnailHeight="130px"
+          thumbnailHeight="160px"
           border= "white"
           font-family= "Georgia, 'Times New Roman', Times, serif"
         />

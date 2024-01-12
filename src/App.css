@@ -24,28 +24,22 @@
   color: whitesmoke;
 }
 .gallery {
-  border: solid fuchsia;
+  border: solid whitesmoke;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  height: 490px;
+  background-color: rgb(243, 229, 208);
 }
 .galleryHead {
-  border: solid green;
-  color: whitesmoke;
-  font-family: BodoniMT;
+  display: flex;
+  color: black;
+  font-family: Bodoni Moda;
   height: 120px;
-  width: 450px;
-}
-.travel {
-  border: solid blue;
-  border-width: 0.3em;
-  width: 850px;
-  height: 500px;
-  font-family: BodoniMT;
-  border-radius: 10px;
-  text-align: center;
-  max-width: 850px;
-  max-height: 500px;
-  margin: 30px;
+  width: 400px;
+  text-shadow:
+    1px 1px 2px white,
+    0 0 1em white,
+    0 0 0.2em white;
 }
 .header{
   color: whitesmoke;
@@ -60,31 +54,32 @@
     0 0 1em black,
     0 0 0.2em black;
 }
-#icon{
-  border: solid fuchsia;
+/* NAV BAR NAV BAR NAV BAR */
+.icon{
   color: black;
-  height: 60px;
-  width: 150px;
-  font-size: 30px;
+  height: 30px;
+  width: 100%;
+  font-size: 20px;
   font-family: Bodoni Moda;
   align-content: center;
   margin-top: 30px;
   font-weight: bolder;
+  text-decoration: none;
   text-shadow:
     1px 1px 2px white,
-    0 0 1em black,
+    0 0 1em white,
     0 0 0.2em white;
 }
 .carousel-caption-bottom{
-  font-family: BodoniMT;
-  background-color: burlywood;
+  font-family: Bodoni Moda;
+  color: black;
+  border: solid black;
+  background-color: rgb(219, 206, 186);
 }
 .carousel-image{
-  border: solid orange;
   display: flex;
 }
 .carousel-container{
-  border: solid yellow;
   display: flex;
   justify-content: center;
   margin-left: 550px;
@@ -149,30 +144,6 @@
 .sql{
   height: 90px;
   width: 90px;
-}
-
-.url{
-  height: 1000px;
-  border: solid fuchsia;
-  font-size: 16px;
-  color: whitesmoke;
-  font-family: BodoniMT;
-  display: flex;
-  justify-content: space-around;
-  padding: 15px;
-}
-
-.apiLink{
-  border: solid blue;
-  width: 33%;
-  color: black;
-  font-size: 16px;
-}
-.trivia{
-  border: solid greenyellow;
-  height: 300px;
-  display: flex;
-  justify-content: space-evenly;
 }
 .grid-container{
   display: grid;
@@ -233,20 +204,20 @@
 }
 @media (max-width: 980px) {
   .App {
-  background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1194844499847950427/IMG_8238.jpg?ex=65b1d4a7&is=659f5fa7&hm=bde34644ca21ca330ae56ba2cc496cb0416ce8fb74b6136c9a67340f1ca37d5c&=&format=webp&width=1309&height=466");
+  background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1194844499847950427/IMG_8238.jpg?ex=65b1d4a7&is=659f5fa7&hm=bde34644ca21ca330ae56ba2cc496cb0416ce8fb74b6136c9a67340f1ca37d5c&=&format=webp&width=809&height=466");
   border: solid whitesmoke;
   background-color: whitesmoke;
   border-width: 0.9em;
-  width: 980px;
-  height: 450px;
+  width: 780px;
+  height: 400px;
 }
 .SubNav{
   border: solid whitesmoke;
   background-color: whitesmoke;
   border-width: 0.3em;
-  height: 60px;
+  height: 50px;
   width: 100%;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 .icons{
   display: flex;
@@ -255,28 +226,21 @@
   color: whitesmoke;
 }
 .gallery {
-  border: solid fuchsia;
+  margin-top: 50px;
+  border: solid white;
   display: flex;
   justify-content: space-around;
 }
 .galleryHead {
-  border: solid green;
-  color: whitesmoke;
-  font-family: BodoniMT;
-  height: 120px;
-  width: 450px;
-}
-.travel {
-  border: solid blue;
-  border-width: 0.3em;
-  width: 850px;
-  height: 500px;
-  font-family: BodoniMT;
-  border-radius: 10px;
-  text-align: center;
-  max-width: 850px;
-  max-height: 500px;
-  margin: 30px;
+  margin-top: 50px;
+  display: flex;
+  color: black;
+  font-family: Bodoni Moda;
+  font-size: 25px;
+  text-shadow:
+    1px 1px 2px white,
+    0 0 1em white,
+    0 0 0.2em white;
 }
 .header{
   color: whitesmoke;
@@ -291,13 +255,19 @@
     0 0 0.2em black;
 }
 .icon{
-  width: 150px;
-  color: whitesmoke;
-  font-size: 22px;
-  font-family: BodoniMT;
+  color: black;
+  width: 100%;
+  height: 20px;
+  font-size: 15px;
+  font-family: Bodoni Moda;
   align-content: center;
+  margin-top: 30px;
   font-weight: bolder;
   text-decoration: none;
+  text-shadow:
+    1px 1px 2px white,
+    0 0 1em white,
+    0 0 0.2em white;
 }
 .carousel-caption-bottom{
   font-family: BodoniMT;
@@ -306,12 +276,11 @@
 .carousel-image{
   border: solid orange;
   display: flex;
+  width: 500px;
 }
 .carousel-container{
-  border: solid yellow;
   display: flex;
   justify-content: center;
-  margin-left: 550px;
 }
 .projectTitle{
   border: solid whitesmoke;
@@ -373,30 +342,6 @@
 .sql{
   height: 90px;
   width: 90px;
-}
-
-.url{
-  height: 1000px;
-  border: solid fuchsia;
-  font-size: 16px;
-  color: whitesmoke;
-  font-family: BodoniMT;
-  display: flex;
-  justify-content: space-around;
-  padding: 15px;
-}
-
-.apiLink{
-  border: solid blue;
-  width: 33%;
-  color: black;
-  font-size: 16px;
-}
-.trivia{
-  border: solid greenyellow;
-  height: 300px;
-  display: flex;
-  justify-content: space-evenly;
 }
 .grid-container{
   display: grid;
@@ -416,14 +361,15 @@
   width: 200px;
 }
 .profileText{
-  width: 50%;
+  width: 40%;
   margin-top: 50px;
+  margin-left: 30px;
   backdrop-filter: blur(3px);
 }
 .titleText{
   color: whitesmoke;
   font-family: Tomatoes;
-  font-size: 45px;
+  font-size: 35px;
   text-shadow:
     1px 1px 2px white,
     0 0 1em black,
@@ -432,8 +378,8 @@
 .jobText{
   color: #fbf9f9;
   margin-left: 20px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 25px;
+  font-family: Bodoni Moda;
+  font-size: 22px;
   text-shadow:
     1px 1px 2px rgb(254, 253, 253),
     3 5 5em white,
@@ -448,18 +394,19 @@
   background-color: whitesmoke;
   border-width: 0.9em;
   width: 460px;
+  height: 600px;
 }
 .SubNav{
   border: solid whitesmoke;
   background-color: whitesmoke;
   border-width: 0.3em;
-  height: 60px;
+  height: 40px;
   width: 100%;
-  margin-top: 250px;
 }
 .icons{
   align-items: center;
   color: whitesmoke;
+  height: 30px;
 }
 .gallery {
   border: solid fuchsia;
@@ -473,28 +420,20 @@
   height: 120px;
   width: 450px;
 }
-.travel {
-  border: solid blue;
-  border-width: 0.3em;
-  width: 850px;
-  height: 500px;
-  font-family: BodoniMT;
-  border-radius: 10px;
-  text-align: center;
-  max-width: 850px;
-  max-height: 500px;
-  margin: 30px;
-}
 .header{
   border: solid purple;
-  height: 300px;
+  height: 260px;
+  width: 80px;
   flex-direction: column;
   justify-content: right;
-  margin-left: 350px;
   text-shadow:
     1px 1px 2px white,
     0 0 1em black,
     0 0 0.2em black;
+}
+.Navbar{
+  height: 0px;
+  width: 0px;
 }
 .icon{
   display: flex;
@@ -502,6 +441,7 @@
   width: 70px;
   color: whitesmoke;
   font-size: 10px;
+  font-family: Bodoni Moda;
 }
 .carousel-caption-bottom{
   font-family: BodoniMT;
@@ -527,8 +467,8 @@
   background-color: whitesmoke;
 }
 .skillTitle{
-  font-size: 40px;
-  font-family: BodoniMT;
+  font-size: 20px;
+  font-family: Bodoni Moda;
   color: whitesmoke;
 }
 .skillHead{
@@ -536,7 +476,7 @@
   background-color: black;
   font-size: 20px;
   color: whitesmoke;
-  font-family: BodoniMT;
+  font-family: Bodoni Moda;
 }
 .logosTop{
   display: flex;
@@ -578,31 +518,6 @@
   height: 90px;
   width: 90px;
 }
-
-.url{
-  height: 1000px;
-  border: solid fuchsia;
-  font-size: 16px;
-  color: whitesmoke;
-  font-family: BodoniMT;
-  display: flex;
-  justify-content: space-around;
-  padding: 15px;
-}
-
-.apiLink{
-  border: solid blue;
-  width: 33%;
-  color: black;
-  font-size: 16px;
-}
-.trivia{
-  border: solid greenyellow;
-  height: 300px;
-  display: flex;
-  justify-content: space-evenly;
-}
-
 .grid-container{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -622,9 +537,11 @@
   width: 200px;
 }
 .profileText{
-  width: 300px;
-  margin-top: 30px;
-  backdrop-filter: blur(3px);
+  padding: 0px;
+  margin-top: 10px;
+  margin-left: 80px;
+  width: 220px;
+  backdrop-filter: blur(1px);
 }
 .titleText{
   color: whitesmoke;
@@ -637,14 +554,11 @@
 }
 .jobText{
   color: whitesmoke;
-  margin-left: 5px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Bodoni Moda;
   font-size: 15px;
-  width: 300px;
   text-shadow:
-    1px 1px 2px black,
-    0 0 1em black,
-    0 0 0.2em black;
+    1px 1px 2px whitesmoke,
+    0 0 1em whitesmoke,
 }
 }
 .sarahPic{
