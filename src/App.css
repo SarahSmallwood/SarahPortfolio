@@ -212,7 +212,7 @@ a {
   background-color: whitesmoke;
   border-width: 0.9em;
   width: 100%;
-  height: 100%;
+  height: 450px;
 }
 .SubNav{
   border: solid whitesmoke;
@@ -365,9 +365,9 @@ a {
 }
 .profileText{
   width: 40%;
-  margin-top: 50px;
+  margin-top: 40px;
   margin-left: 30px;
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(2px);
 }
 .titleText{
   color: whitesmoke;
