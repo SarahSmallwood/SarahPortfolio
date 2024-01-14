@@ -39,7 +39,7 @@ function Gallery() {
 return (
   <div className="gallery">
     
-      <h1 className='galleryHead'>Software Development Portfolio</h1>
+      <h1 className='galleryHead'>SOFTWARE DEVELOPMENT PORTFOLIO</h1>
       
         <Carousel
           data={data}

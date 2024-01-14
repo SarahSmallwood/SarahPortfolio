@@ -2,7 +2,6 @@ import {Route, Routes} from 'react-router-dom';
 import './App.css';
 import Footer from './components/Footer';
 import Gallery from './modules/Gallery';
-import Header from './components/Header';
 import Travel from './modules/Travel';
 import Skills from './modules/Skills';
 import NavBar from './components/NavBar';

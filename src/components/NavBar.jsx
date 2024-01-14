@@ -7,19 +7,19 @@ function NavBar() {
     <div className="Navbar">
         <div className="header">
           <Link to="/App">
-            <div className="icon">Home</div>
+            <div className="icon">HOME</div>
           </Link>
           <Link to="/gallery">
-            <div className="icon">Portfolio</div>
+            <div className="icon">PORTFOLIO</div>
           </Link>
           <Link to="/travel">
-            <div className="icon">Travel Photography</div>
+            <div className="icon">TRAVEL PHOTOGRAPHY</div>
           </Link>
           <Link to="/skills">
-            <div className="icon">Skills</div>
+            <div className="icon">SKILLS</div>
           </Link>
           <Link to="/aboutme">
-            <div className="icon">About Me</div>
+            <div className="icon">ABOUT ME</div>
           </Link>
           
         </div>

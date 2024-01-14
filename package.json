@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.12.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "emailjs-com": "^3.2.0",
     "imagekitio-react": "^3.0.0",
     "react": "^18.2.0",
     "react-axios": "^2.0.6",
@@ -13,6 +15,9 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "react-social-icons": "^5.15.0",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.5",
+    "sweetalert2": "^11.10.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

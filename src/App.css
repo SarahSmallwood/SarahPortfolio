@@ -30,14 +30,14 @@
   display: flex;
   justify-content: space-evenly;
   height: 490px;
-  background-color: rgb(243, 229, 208);
+  background-color: whitesmoke;
 }
 .galleryHead {
   display: flex;
   color: black;
   font-family: Bodoni Moda;
-  height: 120px;
-  width: 400px;
+  font-size: 30px;
+  margin-top: 100px;
   text-shadow:
     1px 1px 2px white,
     0 0 1em white,
@@ -57,7 +57,7 @@
 }
 /* NAV BAR NAV BAR NAV BAR */
 .icon{
-  color: black;
+  color: #454545;
   height: 30px;
   width: 100%;
   font-size: 20px;
@@ -102,11 +102,11 @@ a {
   color: whitesmoke;
 }
 .skillHead{
-  border: solid black;
-  background-color: black;
+  border: solid #454545;
+  background-color: #454545;
   font-size: 20px;
   color: whitesmoke;
-  font-family: BodoniMT;
+  font-family: Bodoni Moda;
 }
 .logosTop{
   display: flex;
@@ -194,13 +194,33 @@ a {
     0 0 0.2em black;
 }
 .AboutMe{
-  background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1195078014199922758/IMG_4646.jpg?ex=65b2ae22&is=65a03922&hm=6c77c2a9e710fab1af77241ce2b78350b77ef1e3771399d2914a25c4a83172b2&=&format=webp&width=1119&height=840");
+  background-color: whitesmoke;
+  display: flex;
+  margin-top: 70px;
+}
+.left{
+  width: 50%;
+  
+}
+.right{
+  width: 50%;
 }
 .sarahPic{
   height: 300px;
   border: solid yellow;
-  width: 1000px;
-  display: cover;
+}
+.sarah{
+  font-family: Bodoni Moda;
+  margin-top: 50px;
+}
+.contact{
+  height: 60px;
+  width: 200px;
+  font-family: Bodoni Moda;
+  font-size: 20px;
+  font-weight: bold;
+  color: whitesmoke;
+  background-color: #454545;
 }
 }
 
@@ -212,7 +232,7 @@ a {
   background-color: whitesmoke;
   border-width: 0.9em;
   width: 100%;
-  height: 450px;
+  height: 400px;
 }
 .SubNav{
   border: solid whitesmoke;
@@ -254,7 +274,7 @@ a {
 }
 .icon{
   border: none;
-  color: black;
+  color: #454545;
   width: 100%;
   height: 20px;
   font-size: 15px;
@@ -273,7 +293,7 @@ a {
 }
 .carousel-caption-bottom{
   font-family: Bodoni Moda;
-  background-color: burlywood;
+  background-color: #454545;
 }
 .carousel-image{
   display: flex;
@@ -283,13 +303,13 @@ a {
 .carousel-container{
   display: flex;
   justify-content: center;
-  border: solid black;
+  border: solid #454545;
 }
 .projectTitle{
   border: solid whitesmoke;
   color: whitesmoke;
   font-size: 20px;
-  font-family: BodoniMT;
+  font-family: Bodoni Moda;
 }
 .skills{
   background-color: whitesmoke;
@@ -300,8 +320,8 @@ a {
   color: whitesmoke;
 }
 .skillHead{
-  border: solid black;
-  background-color: black;
+  border: solid #454545;
+  background-color: #454545;
   font-size: 20px;
   color: whitesmoke;
   font-family: BodoniMT;
@@ -356,7 +376,7 @@ a {
   margin: 20px;
 }
 .photoHead{
-  font-family: BodoniMT;
+  font-family: Bodoni Moda;
   font-size: 25px;
 }
 .photoCard{
@@ -383,10 +403,29 @@ a {
   margin-left: 20px;
   font-family: Bodoni Moda;
   font-size: 22px;
-  text-shadow:
-    1px 1px 2px rgb(254, 253, 253),
-    3 5 5em white,
-    5 5 0.7em white;
+}
+.AboutMe{
+  margin-top: 80px;
+  border-top: whitesmoke;
+  border-width: 0.8em;
+  display: flex;
+  background-color: whitesmoke;
+}
+.left{
+  border: solid fuchsia;
+  width: 50%;
+}
+.right{
+  border: solid blue;
+  width: 50%;
+}
+.sarahPic{
+  width: 100%;
+  border: solid yellow;
+}
+.sarah{
+  margin-top: 60px;
+  font-family: Bodoni Moda;
 }
 }
 
@@ -566,6 +605,4 @@ a {
 }
 .sarahPic{
   height: 340px;
-  display: flex;
-  object-fit: cover;
 }
