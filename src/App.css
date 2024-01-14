@@ -25,6 +25,14 @@
   align-items: center;
   color: whitesmoke;
 }
+.homeIcon{
+  height: 40px;
+  width: 40px;
+}
+.homeButton{
+  height: 50px;
+  margin-top: 10px;
+}
 .gallery {
   border: solid whitesmoke;
   display: flex;
@@ -248,6 +256,14 @@ a {
   align-items: center;
   color: whitesmoke;
 }
+.homeIcon{
+  height: 40px;
+  width: 40px;
+}
+.homeButton{
+  height: 50px;
+  margin-top: 10px;
+}
 .gallery {
   height: 100%;
   width: 100%;
@@ -453,6 +469,11 @@ a {
   align-items: center;
   color: whitesmoke;
   width: 100%;
+}
+.homeIcon{
+  height: 30px;
+  border: none;
+  background-color: none;
 }
 .gallery {
   border: solid fuchsia;

@@ -6,9 +6,11 @@ function NavBar() {
   return (
     <div className="Navbar">
         <div className="header">
+          <button className="homeButton">
           <Link to="/App">
-            <div className="icon">HOME</div>
+            <img className='homeIcon' alt='' src='https://icons.veryicon.com/png/o/miscellaneous/zhiutech-icon/house-34.png' />
           </Link>
+          </button>
           <Link to="/gallery">
             <div className="icon">PORTFOLIO</div>
           </Link>
