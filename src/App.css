@@ -1,13 +1,15 @@
+/* DESKTOP */
+
 @media (max-width: 1400px) {
 
 .App {
   text-align: center;
-  background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1194844499847950427/IMG_8238.jpg?ex=65b1d4a7&is=659f5fa7&hm=bde34644ca21ca330ae56ba2cc496cb0416ce8fb74b6136c9a67340f1ca37d5c&=&format=webp&width=1309&height=466");
+  background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1194844499847950427/IMG_8238.jpg?ex=65b1d4a7&is=659f5fa7&hm=bde34644ca21ca330ae56ba2cc496cb0416ce8fb74b6136c9a67340f1ca37d5c&=&format=webp&width=1200&height=500");
   border: solid whitesmoke;
   background-color: whitesmoke;
   border-width: 0.9em;
+  height: 500px;
   width: 100%;
-  height: 460px;
 }
 .SubNav{
   border: solid whitesmoke;
@@ -42,7 +44,6 @@
     0 0 0.2em white;
 }
 .header{
-  color: whitesmoke;
   border-width: 0.3em;
   font-family: Bodoni Moda;
   height: 90px;
@@ -62,13 +63,15 @@
   font-size: 20px;
   font-family: Bodoni Moda;
   align-content: center;
-  margin-top: 30px;
+  margin-top: 20px;
   font-weight: bolder;
-  text-decoration: none;
   text-shadow:
     1px 1px 2px white,
     0 0 1em white,
     0 0 0.2em white;
+}
+a {
+  text-decoration: none;
 }
 .carousel-caption-bottom{
   font-family: Bodoni Moda;
@@ -164,13 +167,12 @@
 }
 .profileText{
   width: 40%;
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(2px);
   margin-top: 50px;
   text-shadow:
     1px 1px 2px black,
     0 0 1em black,
     0 0 0.2em black;
-    font-family: Allura;
 }
 .titleText{
   color: whitesmoke;
@@ -184,14 +186,13 @@
 .jobText{
   color: whitesmoke;
   margin-left: 20px;
-  font-family: BodoniMT;
+  font-family: Bodoni Moda;
   font-size: 25px;
   text-shadow:
     1px 1px 2px white,
     0 0 1em black,
     0 0 0.2em black;
 }
-
 .AboutMe{
   background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1195078014199922758/IMG_4646.jpg?ex=65b2ae22&is=65a03922&hm=6c77c2a9e710fab1af77241ce2b78350b77ef1e3771399d2914a25c4a83172b2&=&format=webp&width=1119&height=840");
 }
@@ -202,14 +203,16 @@
   display: cover;
 }
 }
+
+/* TABLET */
 @media (max-width: 980px) {
   .App {
-  background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1194844499847950427/IMG_8238.jpg?ex=65b1d4a7&is=659f5fa7&hm=bde34644ca21ca330ae56ba2cc496cb0416ce8fb74b6136c9a67340f1ca37d5c&=&format=webp&width=809&height=466");
+  background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1194844499847950427/IMG_8238.jpg?ex=65b1d4a7&is=659f5fa7&hm=bde34644ca21ca330ae56ba2cc496cb0416ce8fb74b6136c9a67340f1ca37d5c&=&format=webp&width=990&height=466");
   border: solid whitesmoke;
   background-color: whitesmoke;
   border-width: 0.9em;
-  width: 780px;
-  height: 400px;
+  width: 100%;
+  height: 100%;
 }
 .SubNav{
   border: solid whitesmoke;
@@ -226,21 +229,16 @@
   color: whitesmoke;
 }
 .gallery {
+  height: 100%;
+  width: 100%;
   margin-top: 50px;
   border: solid white;
+  border-width: 0.5em;
   display: flex;
   justify-content: space-around;
 }
 .galleryHead {
-  margin-top: 50px;
-  display: flex;
-  color: black;
-  font-family: Bodoni Moda;
-  font-size: 25px;
-  text-shadow:
-    1px 1px 2px white,
-    0 0 1em white,
-    0 0 0.2em white;
+  display: none;
 }
 .header{
   color: whitesmoke;
@@ -255,6 +253,7 @@
     0 0 0.2em black;
 }
 .icon{
+  border: none;
   color: black;
   width: 100%;
   height: 20px;
@@ -269,18 +268,22 @@
     0 0 1em white,
     0 0 0.2em white;
 }
+a {
+  text-decoration: none;
+}
 .carousel-caption-bottom{
-  font-family: BodoniMT;
+  font-family: Bodoni Moda;
   background-color: burlywood;
 }
 .carousel-image{
-  border: solid orange;
   display: flex;
-  width: 500px;
+  justify-content: center;
+  width: 400px;
 }
 .carousel-container{
   display: flex;
   justify-content: center;
+  border: solid black;
 }
 .projectTitle{
   border: solid whitesmoke;
@@ -386,27 +389,31 @@
     5 5 0.7em white;
 }
 }
-@media (max-width: 460px) {
+
+/* MOBILE */
+@media (max-width: 560px) {
   .App {
   text-align: center;
-  background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1194815865477156965/IMG_7451.jpg?ex=65b1b9fc&is=659f44fc&hm=2628436036df4fcb5eb39e5dc58ddd6e5bec2efe2ab58432f85d518a4ae646b0&=&format=webp&width=480&height=625");
+  background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1194815865477156965/IMG_7451.jpg?ex=65b1b9fc&is=659f44fc&hm=2628436036df4fcb5eb39e5dc58ddd6e5bec2efe2ab58432f85d518a4ae646b0&=&format=webp&width=500&height=625");
   border: solid whitesmoke;
   background-color: whitesmoke;
   border-width: 0.9em;
-  width: 460px;
-  height: 600px;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
 }
 .SubNav{
-  border: solid whitesmoke;
   background-color: whitesmoke;
   border-width: 0.3em;
-  height: 40px;
+  height: 57px;
   width: 100%;
+  display: flex;
+  justify-content: space-evenly;
 }
 .icons{
   align-items: center;
   color: whitesmoke;
-  height: 30px;
+  width: 100%;
 }
 .gallery {
   border: solid fuchsia;
@@ -436,13 +443,9 @@
   width: 0px;
 }
 .icon{
-  display: flex;
-  flex-direction: column;
-  width: 70px;
-  color: whitesmoke;
-  font-size: 10px;
-  font-family: Bodoni Moda;
+  display: none;
 }
+
 .carousel-caption-bottom{
   font-family: BodoniMT;
   background-color: burlywood;

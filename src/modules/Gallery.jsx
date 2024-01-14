@@ -46,8 +46,8 @@ return (
           thumbnails={true}
           thumbnailWidth="120px"
           thumbnailHeight="160px"
-          border= "white"
-          font-family= "Georgia, 'Times New Roman', Times, serif"
+          border= "black"
+          font-family= "Bodoni Moda"
         />
         {/* <GithubButton/> */}
 
