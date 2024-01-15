@@ -1,5 +1,7 @@
-import React from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
+import NavMenuDisplay from "./NavMenuDisplay";
+
 
 function NavBar() {
     
@@ -8,7 +10,7 @@ function NavBar() {
         <div className="header">
           <button className="homeButton">
           <Link to="/App">
-            <img className='homeIcon' alt='' src='https://icons.veryicon.com/png/o/miscellaneous/zhiutech-icon/house-34.png' />
+            <img className='homeIcon' alt='white home icon' src='https://icons.veryicon.com/png/o/miscellaneous/zhiutech-icon/house-34.png' />
           </Link>
           </button>
           <Link to="/gallery">
@@ -23,7 +25,9 @@ function NavBar() {
           <Link to="/aboutme">
             <div className="icon">ABOUT ME</div>
           </Link>
-          
+        </div>
+        <div className='menuBar'>
+        
         </div>
     </div>
   )

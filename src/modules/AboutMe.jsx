@@ -6,6 +6,9 @@ function AboutMe() {
     <div className='AboutMe'>
         <div className='left'>
           <h2 className='sarah'>LET'S DESIGN SOMETHING INCREDIBLE </h2>
+          <p className='about'>
+            Sarah Sarah Sarah Sarah Sarah Sarah SarahSarah Sarah Sarah Sarah Sarah Sarah SarahSarah Sarah Sarah Sarah Sarah Sarah SarahSarah Sarah Sarah Sarah Sarah Sarah SarahSarah Sarah Sarah Sarah Sarah Sarah SarahSarah Sarah Sarah Sarah Sarah Sarah Sarah
+          </p>
           <ContactButton/>
         </div>
         <div className='right'>

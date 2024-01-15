@@ -7,7 +7,7 @@ const SERVICE_ID = "service_t03jcbk";
 const TEMPLATE_ID = "template_o3nq39k";
 const PUBLIC_KEY = "7DVCzFr3jgn5HTrSi";
 
-const ContactForm = () => {
+function ContactForm () {
     const handleOnSubmit = (e) => {
         e.preventDefault();
         emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, PUBLIC_KEY)
