@@ -1,12 +1,12 @@
 import {Route, Routes} from 'react-router-dom';
 import './App.css';
-import Footer from './components/Footer';
 import Gallery from './modules/Gallery';
 import Travel from './modules/Travel';
 import Skills from './modules/Skills';
 import NavBar from './components/NavBar';
 import AboutMe from './modules/AboutMe';
 import Home from './modules/Home';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -21,7 +21,8 @@ function App() {
       <Route path="/travel" element={<Travel />} />
       <Route path="/aboutme" element={<AboutMe/>} />
     </Routes> 
-    <Footer />
+    <Footer/>
+  
      
 
 

@@ -7,7 +7,7 @@ function Footer() {
 
 
   return (
-    <div className="SubNav">
+    <footer className="SubNav">
         <div className="icons">
             <SocialIcon url="https://www.linkedin.com/in/sarah-smallwood565/" style={{ height: 60, width: 60 }}/>
             <SocialIcon url="https://www.instagram.com/redhead.aroundtheworld/" style={{ height: 60, width: 60 }}/>
@@ -15,7 +15,7 @@ function Footer() {
             <SocialIcon url="https://github.com/SarahSmallwood" style={{ height: 60, width: 60 }}/>
         </div>
 
-    </div>
+    </footer>
   )
 }
 
