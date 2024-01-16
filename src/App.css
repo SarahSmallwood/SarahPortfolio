@@ -500,27 +500,26 @@ a {
 .homeButton{
   width: 40px;
   height: 40px;
-  margin-top: 10px;
+  margin-top: 13px;
+  margin-left: 0px;
 }
 .gallery {
-  border: solid fuchsia;
   display: flex;
   justify-content: space-around;
 }
 .galleryHead {
-  border: solid green;
   color: whitesmoke;
   font-family: Bodoni Moda;
   height: 120px;
   width: 450px;
 }
 .header{
-  border: solid fuchsia;
+  border: none;
 }
 .Navbar{
-
-  border: solid yellow;
-  height: 50px;
+  border: solid whitesmoke;
+  border-width: 0.3em;
+  height: 70px;
   width: 100%;
 }
 .icon{
@@ -528,7 +527,7 @@ a {
   font-family: Bodoni Moda;
   font-size: 10px;
   text-shadow: none;
-  color: white;
+  color: whitesmoke;
 }
 .menuBar{
   display: flex;
@@ -544,7 +543,7 @@ a {
   transform-origin: 1px;
 }
 .carousel-caption-bottom{
-  font-family: BodoniMT;
+  font-family: Bodoni Moda;
   background-color: burlywood;
 }
 .carousel-image{
@@ -553,13 +552,12 @@ a {
 .carousel-container{
   display: flex;
   justify-content: center;
-  margin-left: 550px;
 }
 .projectTitle{
   border: solid whitesmoke;
   color: whitesmoke;
   font-size: 20px;
-  font-family: BodoniMT;
+  font-family: Bodoni Moda;
 }
 .skills{
   background-color: whitesmoke;
@@ -570,8 +568,8 @@ a {
   color: whitesmoke;
 }
 .skillHead{
-  border: solid black;
-  background-color: black;
+  border: solid #454545;
+  background-color: #454545;
   font-size: 20px;
   color: whitesmoke;
   font-family: Bodoni Moda;
@@ -618,8 +616,8 @@ a {
 }
 .grid-container{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
   justify-content: center;
 }
 .layout{
@@ -627,7 +625,7 @@ a {
   margin: 20px;
 }
 .photoHead{
-  font-family: BodoniMT;
+  font-family: Bodoni Moda;
   font-size: 25px;
 }
 .photoCard{
@@ -636,8 +634,8 @@ a {
 }
 .profileText{
   padding: 0px;
-  margin-top: 10px;
-  margin-left: 80px;
+  margin-top: 40px;
+  margin-left: 10px;
   width: 220px;
   backdrop-filter: blur(1px);
 }
@@ -651,7 +649,7 @@ a {
     0 0 0.2em white;
 }
 .jobText{
-  color: #454545;
+  color: white;
   font-family: Bodoni Moda;
   font-size: 15px;
   text-shadow:
@@ -659,6 +657,52 @@ a {
     0 0 1em whitesmoke,
 }
 }
-.sarahPic{
-  height: 340px;
+.AboutMe{
+  background-color: whitesmoke;
+  border: solid white;
+  border-width: 0.6em;
+  width: 100%;
 }
+.about{
+  font-size: 15px;
+  font-family: Bodoni Moda;
+  height: 150px;
+  width: 250px;
+  margin-left: 0px;
+  border: none;
+}
+.left{
+  width: 250px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.right{
+  display: flex;
+  height: 300px;
+}
+.sarahPic{
+  display: flex;
+  height: 280px;
+  margin-top: 50px;
+}
+.sarah{
+  font-family: Bodoni Moda;
+  height: 100px;
+  width: 250px;
+  margin-top: 30px;
+  font-size: 25px;
+}
+.contact{
+  display: flex;
+  margin-left: 50px;
+  height: 50px;
+  width: 150px;
+  font-family: Bodoni Moda;
+  font-size: 20px;
+  font-weight: bold;
+  color: whitesmoke;
+  background-color: #454545;
+}
+
