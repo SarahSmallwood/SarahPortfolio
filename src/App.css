@@ -223,11 +223,9 @@ a {
   width: 350px;
   height: 260px;
   margin-left: 80px;
-
 }
 .left{
   width: 50%;
-  
 }
 .right{
   width: 50%;
@@ -247,6 +245,36 @@ a {
   font-weight: bold;
   color: whitesmoke;
   background-color: #454545;
+}
+.whiteMenu{
+  display: hidden;
+}
+.bm-menu-wrap{
+  display: hidden;
+}
+.burgerMenu{
+  display: hidden;
+}
+.whiteMenu{
+  display: hidden;
+}
+.menuBar{
+  display: flex;
+}
+.bm-menu{
+  display: hidden;
+}
+.bm-menu-wrap{
+  display: hidden;
+}
+.menu-btn{
+  display: hidden;
+}
+.menu-item{
+  display: hidden;
+}
+.bm-burger-button{
+  display: hidden;
 }
 }
 
@@ -426,7 +454,7 @@ a {
   width: 200px;
 }
 .profileText{
-  width: 40%;
+  width: 45%;
   margin-top: 60px;
   margin-left: 30px;
   backdrop-filter: blur(2px);
@@ -434,24 +462,35 @@ a {
 .titleText{
   color: whitesmoke;
   font-family: Tomatoes;
-  font-size: 35px;
+  font-size: 40px;
+  margin-bottom: 5px;
   text-shadow:
     1px 1px 2px white,
     0 0 1em black,
     0 0 0.2em white;
 }
 .jobText{
-  color: #454545;
+  color: white;
+  margin-top: 10px;
   margin-left: 20px;
   font-weight: bold;
   font-family: Bodoni Moda;
-  font-size: 22px;
+  font-size: 16px;
 }
 .AboutMe{
-  border: solid red;
-  border-width: 0.8em;
+  border: solid white;
+  border-width: 0.5em;
   display: flex;
   background-color: whitesmoke;
+}
+.about{
+  display: flex;
+  font-size: 15px;
+  font-family: Bodoni Moda;
+  height: 150px;
+  width: 400px;
+  margin-left: 10px;
+  border: solid #454545;
 }
 .left{
   width: 50%;
@@ -465,6 +504,45 @@ a {
 .sarah{
   font-family: Bodoni Moda;
 }
+.contact{
+  height: 60px;
+  width: 200px;
+  font-family: Bodoni Moda;
+  font-size: 20px;
+  font-weight: bold;
+  color: whitesmoke;
+  background-color: #454545;
+}
+.whiteMenu{
+  display: hidden;
+}
+.bm-menu-wrap{
+  display: hidden;
+}
+.burgerMenu{
+  display: hidden;
+}
+.whiteMenu{
+  display: hidden;
+}
+.menuBar{
+  display: flex;
+}
+.bm-menu{
+  display: hidden;
+}
+.bm-menu-wrap{
+  display: hidden;
+}
+.menu-btn{
+  display: hidden;
+}
+.menu-item{
+  display: hidden;
+}
+.bm-burger-button{
+  display: hidden;
+}
 }
 
 /* MOBILE */
@@ -475,7 +553,7 @@ a {
   border: solid whitesmoke;
   background-color: whitesmoke;
   border-width: 0.3em;
-  height: 100%;
+  height: 400px;
   width: 100%;
 }
 .SubNav{
@@ -523,11 +601,7 @@ a {
   width: 100%;
 }
 .icon{
-  display: flex;
-  font-family: Bodoni Moda;
-  font-size: 10px;
-  text-shadow: none;
-  color: whitesmoke;
+ display: none;
 }
 .menuBar{
   display: flex;
@@ -633,10 +707,9 @@ a {
   width: 200px;
 }
 .profileText{
-  padding: 0px;
   margin-top: 40px;
   margin-left: 10px;
-  width: 220px;
+  width: 48%;
   backdrop-filter: blur(1px);
 }
 .titleText{
@@ -655,7 +728,6 @@ a {
   text-shadow:
     1px 1px 2px whitesmoke,
     0 0 1em whitesmoke,
-}
 }
 .AboutMe{
   background-color: whitesmoke;
@@ -705,4 +777,52 @@ a {
   color: whitesmoke;
   background-color: #454545;
 }
-
+.burgerMenu{
+  border: solid red;
+  height: 40px;
+  width: 40px;
+}
+.whiteMenu{
+  border: solid blue;
+  height: 40px;
+  width: 40px;
+}
+.menuBar{
+  border: solid purple;
+  padding-left: 0px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+}
+/* .bm-menu{
+  height: 40px;
+  width: 40px;
+} */
+.bm-menu-wrap{
+  border: solid salmon;
+  font-family: Bodoni Moda;
+  color: white;
+  width: 150px;
+  overflow: hidden;
+  display: flex;
+}
+.menu-btn{
+  border: solid green;
+  height: 40px;
+  width: 40px;
+}
+.menu-item{
+  display: flex;
+  border: solid fuchsia;
+  color: white;
+  font-family: Bodoni Moda;
+  font-size: 20px;
+  height: 40px;
+  width: 70px;
+}
+.bm-burger-button{
+  display: inline;
+  height: 40px;
+  width: 40px;
+}
+}

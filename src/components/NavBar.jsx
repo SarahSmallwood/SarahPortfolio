@@ -1,6 +1,6 @@
-import { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import NavMenuDisplay from "./NavMenuDisplay";
+import Menu from "./NavMenuDisplay";
 
 
 function NavBar() {
@@ -25,9 +25,9 @@ function NavBar() {
           <Link to="/aboutme">
             <div className="icon">ABOUT ME</div>
           </Link>
+          <div className="burgerMenu">
+        {/* <Menu /> */}
         </div>
-        <div className='menuBar'>
-        
         </div>
     </div>
   )

@@ -5,7 +5,7 @@ function Home() {
     <div className='home'>
     <div className="profileText">
         <h1 className="titleText">Sarah Elizabeth</h1>
-        <p className="jobText">Software Engineer, Web Developer, Travel Photographer</p>
+        <p className="jobText">SOFTWARE ENGINEER, WEB DEVELOPER, TRAVEL PHOTOGRAPHER</p>
       </div>
     </div>
   )
