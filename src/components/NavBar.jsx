@@ -26,7 +26,7 @@ function NavBar() {
             <div className="icon">ABOUT ME</div>
           </Link>
           <div className="burgerMenu">
-        {/* <Menu /> */}
+        <Menu />
         </div>
         </div>
     </div>
