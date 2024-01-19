@@ -217,12 +217,11 @@ a {
 .about{
   display: flex;
   justify-content: space-around;
-  border: solid salmon;
   font-size: 20px;
   font-family: Bodoni Moda;
-  width: 350px;
-  height: 260px;
-  margin-left: 80px;
+  width: 500px;
+  height: 270px;
+  margin-left: 10px;
 }
 .left{
   width: 50%;
@@ -231,7 +230,8 @@ a {
   width: 50%;
 }
 .sarahPic{
-  height: 300px;
+  margin-top: 30px;
+  height: 350px;
 }
 .sarah{
   font-family: Bodoni Moda;
@@ -490,7 +490,6 @@ a {
   height: 150px;
   width: 400px;
   margin-left: 10px;
-  border: solid #454545;
 }
 .left{
   width: 50%;
@@ -738,10 +737,9 @@ a {
 .about{
   font-size: 15px;
   font-family: Bodoni Moda;
-  height: 150px;
+  height: 250px;
   width: 250px;
   margin-left: 0px;
-  border: none;
 }
 .left{
   width: 250px;
@@ -768,11 +766,11 @@ a {
 }
 .contact{
   display: flex;
-  margin-left: 50px;
-  height: 50px;
-  width: 150px;
+  margin-left: 70px;
+  height: 40px;
+  width: 100px;
   font-family: Bodoni Moda;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
   color: whitesmoke;
   background-color: #454545;
