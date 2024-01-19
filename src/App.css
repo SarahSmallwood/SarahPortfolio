@@ -336,7 +336,7 @@ a {
 
 
 
-@media (min-width: 361px) and (max-width: 980px) {
+@media (min-width: 401px) and (max-width: 980px) {
   .App {
   background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1194844499847950427/IMG_8238.jpg?ex=65b1d4a7&is=659f5fa7&hm=bde34644ca21ca330ae56ba2cc496cb0416ce8fb74b6136c9a67340f1ca37d5c&=&format=webp&width=990&height=466");
   border: solid whitesmoke;
@@ -650,7 +650,7 @@ a {
 }
 
 /* MOBILE */
-@media (max-width: 360px) {
+@media (max-width: 400px) {
   .App {
   text-align: center;
   background-image: url("https://media.discordapp.net/attachments/1135935108650635327/1194815865477156965/IMG_7451.jpg?ex=65b1b9fc&is=659f44fc&hm=2628436036df4fcb5eb39e5dc58ddd6e5bec2efe2ab58432f85d518a4ae646b0&=&format=webp&width=500&height=625");
